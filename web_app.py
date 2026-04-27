@@ -135,7 +135,7 @@ def send_welcome_email(to_email, customer_name, token):
     magic_link = f"{app_url}/?token={token}"
     
     html_content = f"
-    '''<html>
+    <html>
       <body>
         <h2>Welcome, {customer_name}!</h2>
         <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
