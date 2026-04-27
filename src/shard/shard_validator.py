@@ -5,7 +5,7 @@ from typing import Tuple, Dict, Any
 
 from src.utils.io_sorted import read_shards_sorted
 
-SCHEMA_PATH = Path("phase1_schema.json")  # at repo root
+SCHEMA_PATH = Path("schema/phase1_schema.json")  # at repo root
 
 def load_schema() -> Dict[str, Any]:
     with SCHEMA_PATH.open("r") as f:
