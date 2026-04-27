@@ -48,13 +48,10 @@ def load_tokens():
     if TOKEN_FILE.exists():
         with open(TOKEN_FILE, "r") as f:
             data = json.load(f)
-            # Support both old format (list) and new format (dict with expiry)
             if isinstance(data, list):
                 return set(data)
             elif isinstance(data, dict):
                 return set(data.keys())
-            else:
-                return set()
     return set()
 
 def save_tokens(tokens_set):
@@ -155,9 +152,9 @@ def send_welcome_email(to_email, customer_name, token):
     return resp.status_code == 200
 
 # ----------------------------------------------------------------------
-# HTML landing page (updated to display tip_of_the_day)
+# HTML landing page (using triple single quotes to avoid quote issues)
 # ----------------------------------------------------------------------
-HTML_PAGE = """
+HTML_PAGE = '''
 <!DOCTYPE html>
 <html>
 <head>
@@ -228,7 +225,7 @@ HTML_PAGE = """
     {% endif %}
 </body>
 </html>
-"""
+'''
 
 # ----------------------------------------------------------------------
 # Routes
