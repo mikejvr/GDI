@@ -1,13 +1,68 @@
+"""
+web_app.py – Paywalled recommendation server with Stripe webhook + email delivery.
+"""
+
 import os
 import json
 import uuid
+import hashlib
 import subprocess
 from pathlib import Path
+from datetime import datetime, timedelta
 from flask import Flask, request, jsonify, render_template_string
 from apscheduler.schedulers.background import BackgroundScheduler
-from recommend import load_latest_shard, compute_recommendation
+import stripe
+import requests
 
+# ----------------------------------------------------------------------
+# Import your recommendation engine
+# ----------------------------------------------------------------------
+import recommend  # must be in the same directory or accessible
+
+# ----------------------------------------------------------------------
+# Flask app initialization
+# ----------------------------------------------------------------------
 app = Flask(__name__)
+
+# ----------------------------------------------------------------------
+# Environment variables (set these on Render)
+# ----------------------------------------------------------------------
+STRIPE_PAYMENT_LINK = os.environ.get("STRIPE_PAYMENT_LINK", "https://buy.stripe.com/your-link")
+ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "changeme")
+
+# Stripe webhook & email
+STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY")
+STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET")
+MAILGUN_API_KEY = os.environ.get("MAILGUN_API_KEY")
+MAILGUN_DOMAIN = os.environ.get("MAILGUN_DOMAIN")
+FROM_EMAIL = os.environ.get("FROM_EMAIL", f"welcome@{MAILGUN_DOMAIN}" if MAILGUN_DOMAIN else "welcome@example.com")
+
+stripe.api_key = STRIPE_SECRET_KEY
+
+# ----------------------------------------------------------------------
+# Persistent token storage (file‑based, survives restarts)
+# ----------------------------------------------------------------------
+TOKEN_FILE = Path("tokens.json")
+
+def load_tokens():
+    if TOKEN_FILE.exists():
+        with open(TOKEN_FILE, "r") as f:
+            return set(json.load(f))
+    return set()
+
+def save_tokens(tokens):
+    with open(TOKEN_FILE, "w") as f:
+        json.dump(list(tokens), f)
+
+ACTIVE_TOKENS = load_tokens()
+
+def add_token(token):
+    ACTIVE_TOKENS.add(token)
+    save_tokens(ACTIVE_TOKENS)
+
+def remove_token(token):
+    ACTIVE_TOKENS.discard(token)
+    save_tokens(ACTIVE_TOKENS)
 
 # ----------------------------------------------------------------------
 # Git pull helper (keeps data/ updated from GitHub)
@@ -21,9 +76,7 @@ def git_pull():
         print("⚠️ GIT_PAT not set – cannot pull.")
         return
 
-    # Rewrite remote URL to include the token for authentication
     try:
-        # Get current remote URL
         remote_url = subprocess.run(
             ["git", "config", "--get", "remote.origin.url"],
             cwd=repo_path,
@@ -31,22 +84,17 @@ def git_pull():
             text=True,
             check=True
         ).stdout.strip()
-        # Convert https://github.com/user/repo -> https://TOKEN@github.com/user/repo
         if remote_url.startswith("https://"):
             new_url = remote_url.replace("https://", f"https://{token}@")
         else:
-            # For ssh, you'd need a different approach – but most use https
             print("⚠️ Non-https remote – skipping pull.")
             return
-        # Set the temporary URL for this pull
         subprocess.run(["git", "remote", "set-url", "origin", new_url], cwd=repo_path, check=True)
-        # Pull
         subprocess.run(["git", "pull", "--ff-only"], cwd=repo_path, check=True)
         print("✅ Git pull successful.")
     except subprocess.CalledProcessError as e:
         print(f"❌ Git pull failed: {e}")
     finally:
-        # Restore original URL (without token)
         if remote_url:
             subprocess.run(["git", "remote", "set-url", "origin", remote_url], cwd=repo_path, check=False)
 
@@ -58,14 +106,46 @@ scheduler.add_job(git_pull, 'interval', hours=1)
 scheduler.start()
 
 # ----------------------------------------------------------------------
-# In-memory token store (for MVP – use a database later)
+# Email sending function (Mailgun)
 # ----------------------------------------------------------------------
-ACTIVE_TOKENS = {"test123"}
-STRIPE_PAYMENT_LINK = os.environ.get("STRIPE_PAYMENT_LINK", "https://buy.stripe.com/your-link-here")
-ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "changeme")
+def send_welcome_email(to_email, customer_name, token):
+    """Send an email with the access token using Mailgun."""
+    app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
+    magic_link = f"{app_url}/?token={token}"
+    
+    html_content = f"
+    '''<html>
+      <body>
+        <h2>Welcome, {customer_name}!</h2>
+        <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
+        <p><b>Your Access Token:</b> <code>{token}</code></p>
+        <p>👉 <a href="{magic_link}">Click here to get your first recommendation</a></p>
+        <p>Or paste the token on our website.</p>
+        <p>This token is valid for 30 days (your subscription period).</p>
+        <p>Thank you for subscribing!</p>
+        <p>– Gig Driver Intelligence Team</p>
+      </body>
+    </html>'''
+    "
+    
+    if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
+        print("⚠️ Mailgun credentials missing – email not sent.")
+        return False
+    
+    resp = requests.post(
+        f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+        auth=("api", MAILGUN_API_KEY),
+        data={
+            "from": FROM_EMAIL,
+            "to": [to_email],
+            "subject": "Your Gig Driver Intelligence access token",
+            "html": html_content
+        }
+    )
+    return resp.status_code == 200
 
 # ----------------------------------------------------------------------
-# HTML landing page (same as before, but with token auto‑store)
+# HTML landing page
 # ----------------------------------------------------------------------
 HTML_PAGE = """
 <!DOCTYPE html>
@@ -114,6 +194,9 @@ HTML_PAGE = """
 </html>
 """
 
+# ----------------------------------------------------------------------
+# Routes
+# ----------------------------------------------------------------------
 @app.route('/')
 def index():
     token = request.args.get('token')
@@ -131,26 +214,73 @@ def api_recommend():
     if token not in ACTIVE_TOKENS:
         return jsonify({"error": "Invalid or expired token"}), 403
 
-    # Ensure we have the latest shard (run git pull if needed? Already done every hour)
-    shard = load_latest_shard()
+    shard = recommend.load_latest_shard()
     if not shard:
         return jsonify({"error": "No demand data available"}), 503
-    rec = compute_recommendation(shard)
+    rec = recommend.compute_recommendation(shard)
     return jsonify(rec)
 
 @app.route('/admin/add_token', methods=['POST'])
-def add_token():
+def add_token_endpoint():
     secret = request.headers.get('X-Admin-Secret')
     if secret != ADMIN_SECRET:
         return jsonify({"error": "Unauthorized"}), 401
     data = request.get_json()
     token = data.get('token')
     if token:
-        ACTIVE_TOKENS.add(token)
+        add_token(token)
         return jsonify({"status": "added", "token": token})
     return jsonify({"error": "No token provided"}), 400
 
+# ----------------------------------------------------------------------
+# Stripe webhook
+# ----------------------------------------------------------------------
+@app.route('/stripe-webhook', methods=['POST'])
+def stripe_webhook():
+    if not STRIPE_WEBHOOK_SECRET:
+        return jsonify({"error": "Webhook secret not configured"}), 500
+
+    payload = request.get_data(as_text=True)
+    sig_header = request.headers.get('Stripe-Signature')
+    
+    try:
+        event = stripe.Webhook.construct_event(
+            payload, sig_header, STRIPE_WEBHOOK_SECRET
+        )
+    except ValueError:
+        return jsonify({"error": "Invalid payload"}), 400
+    except stripe.error.SignatureVerificationError:
+        return jsonify({"error": "Invalid signature"}), 400
+
+    if event['type'] == 'checkout.session.completed':
+        session = event['data']['object']
+        customer_email = session['customer_details']['email']
+        customer_name = session['customer_details'].get('name', 'Driver')
+        
+        # Generate a unique token from subscription ID or session ID
+        sub_id = session.get('subscription')
+        if sub_id:
+            token_base = f"{sub_id}:{customer_email}"
+        else:
+            token_base = f"{session['id']}:{customer_email}"
+        token = hashlib.sha256(token_base.encode()).hexdigest()[:16]
+        
+        add_token(token)
+        
+        # Send email using Mailgun (if configured)
+        if MAILGUN_API_KEY and MAILGUN_DOMAIN:
+            success = send_welcome_email(customer_email, customer_name, token)
+            if not success:
+                print(f"⚠️ Failed to send email to {customer_email}")
+        else:
+            print(f"ℹ️ No Mailgun config – token {token} for {customer_email} saved but not emailed.")
+    
+    return jsonify({"status": "success"}), 200
+
+# ----------------------------------------------------------------------
+# Startup
+# ----------------------------------------------------------------------
 if __name__ == '__main__':
-    # Run a git pull at startup to get the latest data
+    # Pull latest data once at startup
     git_pull()
     app.run(host='0.0.0.0', port=5000, debug=False)
