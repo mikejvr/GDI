@@ -134,7 +134,7 @@ def send_welcome_email(to_email, customer_name, token):
     app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
     magic_link = f"{app_url}/?token={token}"
     
-    html_content = f"
+    html_content = f"""
     <html>
       <body>
         <h2>Welcome, {customer_name}!</h2>
@@ -146,7 +146,7 @@ def send_welcome_email(to_email, customer_name, token):
         <p>Thank you for subscribing!</p>
         <p>– Gig Driver Intelligence Team</p>
       </body>
-    </html>'''
+    </html>"""
     "
     
     if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
