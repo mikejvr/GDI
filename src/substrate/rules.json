@@ -49,6 +49,447 @@
       "id": 10,
       "title": "Have a Multi-App Strategy",
       "description": "Run two or three apps (Uber, Lyft, DoorDash, etc.) and pick the best trip from any. But never use both simultaneously while driving – pause one while on a trip."
-    }
-  ]
-}
+    },
+
+    {
+      "id": 11,
+      "title": "Avoid Long Pickup Times",
+      "description": "Reject requests with long pickup distances or times unless the payout compensates for the dead miles."
+    },
+    {
+      "id": 12,
+      "title": "Use Heatmaps Strategically",
+      "description": "Heatmaps show demand, not guaranteed earnings. Use them as hints, not instructions."
+    },
+    {
+      "id": 13,
+      "title": "Know Your Minimum Pay Threshold",
+      "description": "Set a personal minimum (e.g., $1.20/mile or $20/hour) and decline anything below it."
+    },
+    {
+      "id": 14,
+      "title": "Keep Your Car Clean Daily",
+      "description": "A clean car improves ratings and tips. Wipe down surfaces and remove trash between trips."
+    },
+    {
+      "id": 15,
+      "title": "Use a Fuel Rewards Program",
+      "description": "Stack fuel rewards, credit card points, and app discounts to reduce operating costs."
+    },
+    {
+      "id": 16,
+      "title": "Avoid Idle Time",
+      "description": "If you’re sitting more than 10 minutes without a request, reposition to a known hotspot."
+    },
+    {
+      "id": 17,
+      "title": "Know the Best Zones in Your City",
+      "description": "Airports, downtown, nightlife, and event venues often produce consistent demand."
+    },
+    {
+      "id": 18,
+      "title": "Master Airport Rules",
+      "description": "Learn queue behavior, staging areas, and peak arrival times to avoid wasting hours."
+    },
+    {
+      "id": 19,
+      "title": "Avoid Low-Tip Restaurants",
+      "description": "Some restaurants consistently produce low tips or long wait times. Track and avoid them."
+    },
+    {
+      "id": 20,
+      "title": "Track Restaurant Wait Times",
+      "description": "Know which restaurants delay orders. Time is money—avoid slow kitchens."
+    },
+
+    {
+      "id": 21,
+      "title": "Use Hotspot Rotation",
+      "description": "Cycle between 2–3 high-demand areas instead of waiting in one place."
+    },
+    {
+      "id": 22,
+      "title": "Avoid Traffic Bottlenecks",
+      "description": "Heavy traffic kills earnings. Learn shortcuts and avoid congested zones during rush hour."
+    },
+    {
+      "id": 23,
+      "title": "Know When to End Your Shift",
+      "description": "If earnings drop below your threshold, stop. Don’t chase losses."
+    },
+    {
+      "id": 24,
+      "title": "Use a Dash Cam",
+      "description": "Protect yourself from false claims, accidents, and disputes with video evidence."
+    },
+    {
+      "id": 25,
+      "title": "Keep a Phone Mount",
+      "description": "Hands-free navigation is safer and prevents distracted driving violations."
+    },
+    {
+      "id": 26,
+      "title": "Carry Basic Supplies",
+      "description": "Keep napkins, sanitizer, a flashlight, and a tire gauge for emergencies."
+    },
+    {
+      "id": 27,
+      "title": "Avoid Unnecessary Conversations",
+      "description": "Be polite but avoid sensitive topics. Keep interactions professional."
+    },
+    {
+      "id": 28,
+      "title": "Use Navigation Apps Wisely",
+      "description": "Compare Uber/Lyft routing with Google Maps or Waze to avoid inefficient routes."
+    },
+    {
+      "id": 29,
+      "title": "Know Local Events",
+      "description": "Concerts, sports games, and festivals create predictable demand spikes."
+    },
+    {
+      "id": 30,
+      "title": "Avoid Dead Miles",
+      "description": "Always aim to drive with purpose. Unpaid miles destroy profitability."
+    },
+
+    {
+      "id": 31,
+      "title": "Use Scheduled Rides Strategically",
+      "description": "Scheduled rides can guarantee early-morning earnings without waiting."
+    },
+    {
+      "id": 32,
+      "title": "Avoid High-Risk Areas at Night",
+      "description": "Safety first. Decline trips to unsafe neighborhoods during late hours."
+    },
+    {
+      "id": 33,
+      "title": "Keep Your Phone Charged",
+      "description": "Use a fast charger and backup battery to avoid downtime."
+    },
+    {
+      "id": 34,
+      "title": "Use a Mileage Deduction Strategy",
+      "description": "Choose between standard mileage or actual expenses based on which yields higher deductions."
+    },
+    {
+      "id": 35,
+      "title": "Track Wear and Tear",
+      "description": "Monitor tire tread, brakes, and oil life to avoid costly breakdowns."
+    },
+    {
+      "id": 36,
+      "title": "Avoid Multi-Stop Deliveries",
+      "description": "Multi-stop orders often pay poorly for the time invested."
+    },
+    {
+      "id": 37,
+      "title": "Know When to Decline Stacked Orders",
+      "description": "Only accept stacked orders if both pay well and follow a logical route."
+    },
+    {
+      "id": 38,
+      "title": "Use Customer Notes",
+      "description": "Read delivery notes carefully to avoid delays or mistakes."
+    },
+    {
+      "id": 39,
+      "title": "Avoid Long Wait Restaurants",
+      "description": "If a restaurant consistently delays orders, decline requests from it."
+    },
+    {
+      "id": 40,
+      "title": "Keep Snacks in the Car",
+      "description": "Avoid hunger-induced fatigue and maintain focus."
+    },
+
+    {
+      "id": 41,
+      "title": "Know Your City’s Rush Hour Patterns",
+      "description": "Plan around predictable traffic to maximize efficiency."
+    },
+    {
+      "id": 42,
+      "title": "Avoid Toll Roads Unless Worth It",
+      "description": "Only take tolls if the payout compensates for the cost."
+    },
+    {
+      "id": 43,
+      "title": "Use In-App Messaging for Documentation",
+      "description": "Keep all communication inside the app for protection."
+    },
+    {
+      "id": 44,
+      "title": "Avoid High-Risk Weather",
+      "description": "Snow, ice, and storms increase accident risk. Only work if safe."
+    },
+    {
+      "id": 45,
+      "title": "Know Your Car’s Fuel Efficiency",
+      "description": "Track MPG to identify mechanical issues early and optimize costs."
+    },
+    {
+      "id": 46,
+      "title": "Use a Maintenance Schedule",
+      "description": "Follow a strict maintenance routine to extend vehicle life."
+    },
+    {
+      "id": 47,
+      "title": "Avoid Overworking",
+      "description": "Fatigue reduces earnings and increases risk. Pace yourself."
+    },
+    {
+      "id": 48,
+      "title": "Use a Tip Strategy",
+      "description": "Be polite, efficient, and professional to encourage tipping."
+    },
+    {
+      "id": 49,
+      "title": "Avoid Unnecessary Small Talk",
+      "description": "Some passengers prefer quiet. Read the room."
+    },
+    {
+      "id": 50,
+      "title": "Keep Windows Clean",
+      "description": "Visibility and professionalism matter for safety and ratings."
+    },
+
+    {
+      "id": 51,
+      "title": "Know When to Cancel",
+      "description": "Cancel only when necessary to avoid penalties and maintain ratings."
+    },
+    {
+      "id": 52,
+      "title": "Avoid Delivering to Apartments Without Clear Directions",
+      "description": "Complex buildings waste time. Decline if instructions are unclear."
+    },
+    {
+      "id": 53,
+      "title": "Use a Parking Strategy",
+      "description": "Avoid tickets by parking legally and safely during deliveries."
+    },
+    {
+      "id": 54,
+      "title": "Keep Your Car Smelling Neutral",
+      "description": "Avoid strong scents. Neutral is best for all passengers."
+    },
+    {
+      "id": 55,
+      "title": "Avoid Overloading Your Schedule",
+      "description": "Don’t stack too many commitments. Leave room for breaks."
+    },
+    {
+      "id": 56,
+      "title": "Use a Weekly Earnings Goal",
+      "description": "Set a target and stop when you hit it to avoid burnout."
+    },
+    {
+      "id": 57,
+      "title": "Know Your Best Hours",
+      "description": "Track which hours produce the highest earnings and focus on them."
+    },
+    {
+      "id": 58,
+      "title": "Avoid Low-Pay Promotions",
+      "description": "Not all quests or bonuses are worth the time investment."
+    },
+    {
+      "id": 59,
+      "title": "Use a Car Vacuum Weekly",
+      "description": "A clean interior improves ratings and comfort."
+    },
+    {
+      "id": 60,
+      "title": "Avoid Driving Angry or Stressed",
+      "description": "Emotional driving leads to mistakes and poor decisions."
+    },
+
+    {
+      "id": 61,
+      "title": "Use a Backup Phone",
+      "description": "A second device prevents downtime if your main phone fails."
+    },
+    {
+      "id": 62,
+      "title": "Know Your App’s Hidden Features",
+      "description": "Learn destination filters, heatmaps, and earnings breakdowns."
+    },
+    {
+      "id": 63,
+      "title": "Avoid Taking Orders Without Tips",
+      "description": "Some platforms show tip amounts. Decline zero-tip orders when possible."
+    },
+    {
+      "id": 64,
+      "title": "Use a Tire Pressure Monitor",
+      "description": "Proper tire pressure improves MPG and safety."
+    },
+    {
+      "id": 65,
+      "title": "Avoid Delivering to Dorms",
+      "description": "Dorms often require long walks and confusing navigation."
+    },
+    {
+      "id": 66,
+      "title": "Use a Night Driving Strategy",
+      "description": "Stick to well-lit areas and avoid risky zones."
+    },
+    {
+      "id": 67,
+      "title": "Know When to Switch Apps",
+      "description": "If one app slows down, switch to another to maintain earnings."
+    },
+    {
+      "id": 68,
+      "title": "Avoid Overly Complicated Orders",
+      "description": "Special instructions often lead to delays and low tips."
+    },
+    {
+      "id": 69,
+      "title": "Use a Weekly Maintenance Check",
+      "description": "Check fluids, tires, and lights every week."
+    },
+    {
+      "id": 70,
+      "title": "Avoid Delivering During Restaurant Rush",
+      "description": "Peak dining hours cause long wait times. Time your shifts wisely."
+    },
+
+    {
+      "id": 71,
+      "title": "Use a Personal Safety App",
+      "description": "Share your location with trusted contacts during late-night shifts."
+    },
+    {
+      "id": 72,
+      "title": "Avoid Overly Heavy Orders",
+      "description": "Large grocery orders can cause injury and slowdowns."
+    },
+    {
+      "id": 73,
+      "title": "Know Your Car’s Limits",
+      "description": "Avoid overloading your vehicle or driving in unsafe conditions."
+    },
+    {
+      "id": 74,
+      "title": "Use a Fuel-Efficient Driving Style",
+      "description": "Smooth acceleration and braking improve MPG and reduce wear."
+    },
+    {
+      "id": 75,
+      "title": "Avoid Delivering to Gated Communities Without Codes",
+      "description": "Waiting at gates wastes time and kills earnings."
+    },
+    {
+      "id": 76,
+      "title": "Use a Daily Earnings Tracker",
+      "description": "Track earnings per hour and per mile to optimize shifts."
+    },
+    {
+      "id": 77,
+      "title": "Avoid Taking Orders Far From Hotspots",
+      "description": "Deliveries that end in low-demand areas reduce efficiency."
+    },
+    {
+      "id": 78,
+      "title": "Use a Weather-Based Strategy",
+      "description": "Rain increases demand but also risk. Adjust accordingly."
+    },
+    {
+      "id": 79,
+      "title": "Avoid Over-Reliance on One App",
+      "description": "Diversify to avoid downtime and maximize opportunities."
+    },
+    {
+      "id": 80,
+      "title": "Use a Weekly Rest Day",
+      "description": "Recovery prevents burnout and keeps you sharp."
+    },
+
+    {
+      "id": 81,
+      "title": "Avoid Delivering to Businesses After Hours",
+      "description": "Closed offices or locked buildings cause delays."
+    },
+    {
+      "id": 82,
+      "title": "Use a Route Optimization Strategy",
+      "description": "Plan efficient routes to reduce time and fuel usage."
+    },
+    {
+      "id": 83,
+      "title": "Avoid Taking Orders With Long Walks",
+      "description": "Large apartment complexes or campuses slow you down."
+    },
+    {
+      "id": 84,
+      "title": "Use a Tip Reminder Strategy",
+      "description": "A polite thank-you message can encourage tipping."
+    },
+    {
+      "id": 85,
+      "title": "Avoid Delivering During Extreme Heat",
+      "description": "Protect your health and avoid overheating your vehicle."
+    },
+    {
+      "id": 86,
+      "title": "Use a Backup Navigation App",
+      "description": "If one app glitches, switch instantly to avoid delays."
+    },
+    {
+      "id": 87,
+      "title": "Avoid Taking Orders With Long Prep Times",
+      "description": "Some cuisines take longer to prepare. Track and avoid them."
+    },
+    {
+      "id": 88,
+      "title": "Use a Car Maintenance Fund",
+      "description": "Set aside money weekly for repairs and upkeep."
+    },
+    {
+      "id": 89,
+      "title": "Avoid Delivering to Hospitals",
+      "description": "Hospitals often require long walks and confusing navigation."
+    },
+    {
+      "id": 90,
+      "title": "Use a Shift Start Routine",
+      "description": "Prepare your car, apps, and mindset before starting."
+    },
+
+    {
+      "id": 91,
+      "title": "Avoid Delivering to Schools",
+      "description": "School campuses are confusing and time-consuming."
+    },
+    {
+      "id": 92,
+      "title": "Use a Shift End Routine",
+      "description": "Clean your car, log expenses, and review earnings."
+    },
+    {
+      "id": 93,
+      "title": "Avoid Taking Orders With Low Base Pay",
+      "description": "Low base pay often means low tips and wasted time."
+    },
+    {
+      "id": 94,
+      "title": "Use a Weekly Review",
+      "description": "Analyze your best zones, hours, and apps to improve strategy."
+    },
+    {
+      "id": 95,
+      "title": "Avoid Delivering to Hotels Without Clear Instructions",
+      "description": "Hotels often require long walks and confusing layouts."
+    },
+    {
+      "id": 96,
+      "title": "Use a Fuel Budget",
+      "description": "Track weekly fuel spending to maintain profitability."
+    },
+    {
+      "id": 97,
+      "title": "Avoid Taking Orders That End Far From Home",
+      "description": "Long return trips reduce net earnings."
