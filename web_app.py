@@ -127,42 +127,8 @@ scheduler.add_job(git_pull, 'interval', hours=1)
 scheduler.start()
 
 # ----------------------------------------------------------------------
-# Email sending function (Mailgun)
+# Email sending function
 # ----------------------------------------------------------------------
-def send_welcome_email(to_email, customer_name, token):
-    """Send an email with the access token using Mailgun."""
-    app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
-    magic_link = f"{app_url}/?token={token}"
-    
-    html_content = f"""
-    <html>
-      <body>
-        <h2>Welcome, {customer_name}!</h2>
-        <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
-        <p><b>Your Access Token:</b> <code>{token}</code></p>
-        <p>👉 <a href="{magic_link}">Click here to get your first recommendation</a></p>
-        <p>Or paste the token on our website.</p>
-        <p>This token is valid for 30 days (your subscription period).</p>
-        <p>Thank you for subscribing!</p>
-        <p>– Gig Driver Intelligence Team</p>
-      </body>
-    </html>"
-    
-    if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
-        print("⚠️ Mailgun credentials missing – email not sent.")
-        return False
-    
-    resp = requests.post(
-        f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
-        auth=("api", MAILGUN_API_KEY),
-        data={
-            "from": FROM_EMAIL,
-            "to": [to_email],
-            "subject": "Your Gig Driver Intelligence access token",
-            "html": html_content
-        }
-    )
-    return resp.status_code == 200
 
 # ----------------------------------------------------------------------
 # HTML landing page (updated to display tip_of_the_day)
