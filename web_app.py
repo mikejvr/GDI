@@ -5,7 +5,6 @@ Displays a daily driver tip alongside the recommendation.
 
 import os
 import json
-import uuid
 import hashlib
 import subprocess
 from pathlib import Path
@@ -37,53 +36,43 @@ MAILGUN_API_KEY = os.environ.get("MAILGUN_API_KEY")
 MAILGUN_DOMAIN = os.environ.get("MAILGUN_DOMAIN")
 FROM_EMAIL = os.environ.get("FROM_EMAIL", f"welcome@{MAILGUN_DOMAIN}" if MAILGUN_DOMAIN else "welcome@example.com")
 
-stripe.api_key = STRIPE_SECRET_KEY
+if STRIPE_SECRET_KEY:
+    stripe.api_key = STRIPE_SECRET_KEY
 
 # ----------------------------------------------------------------------
-# Persistent token storage (file‑based, survives restarts)
+# Persistent token storage (simple set – no expiry for MVP)
 # ----------------------------------------------------------------------
 TOKEN_FILE = Path("tokens.json")
 
 def load_tokens():
     if TOKEN_FILE.exists():
         with open(TOKEN_FILE, "r") as f:
-            return json.load(f)
+            data = json.load(f)
+            # Support both old format (list) and new format (dict with expiry)
+            if isinstance(data, list):
+                return set(data)
+            elif isinstance(data, dict):
+                return set(data.keys())
+            else:
+                return set()
     return set()
 
-def save_tokens(tokens_dict):
+def save_tokens(tokens_set):
     with open(TOKEN_FILE, "w") as f:
-        json.dump(tokens_dict, f)
+        json.dump(list(tokens_set), f)
 
-TOKEN_STORE = load_tokens()   # now a dict: token -> expiry (datetime string or Unix timestamp)
+ACTIVE_TOKENS = load_tokens()
 
 def add_token(token):
-    expiry = datetime.utcnow() + timedelta(days=30)
-    TOKEN_STORE[token] = expiry.isoformat()
-    save_tokens(TOKEN_STORE)
+    ACTIVE_TOKENS.add(token)
+    save_tokens(ACTIVE_TOKENS)
 
 def remove_token(token):
-    if token in TOKEN_STORE:
-        del TOKEN_STORE[token]
-        save_tokens(TOKEN_STORE)
+    ACTIVE_TOKENS.discard(token)
+    save_tokens(ACTIVE_TOKENS)
 
 def is_token_valid(token):
-    if token not in TOKEN_STORE:
-        return False
-    expiry_str = TOKEN_STORE[token]
-    expiry = datetime.fromisoformat(expiry_str)
-    if datetime.utcnow() > expiry:
-        # Remove expired token
-        remove_token(token)
-        return False
-    return True
-
-def clean_expired_tokens():
-    now = datetime.utcnow()
-    expired = [t for t, exp_str in TOKEN_STORE.items() if datetime.fromisoformat(exp_str) < now]
-    for t in expired:
-        del TOKEN_STORE[t]
-    if expired:
-        save_tokens(TOKEN_STORE)
+    return token in ACTIVE_TOKENS
 
 # ----------------------------------------------------------------------
 # Git pull helper (keeps data/ updated from GitHub)
@@ -127,8 +116,43 @@ scheduler.add_job(git_pull, 'interval', hours=1)
 scheduler.start()
 
 # ----------------------------------------------------------------------
-# Email sending function
+# Email sending function (Mailgun) – fixed stray quote
 # ----------------------------------------------------------------------
+def send_welcome_email(to_email, customer_name, token):
+    """Send an email with the access token using Mailgun."""
+    app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
+    magic_link = f"{app_url}/?token={token}"
+
+    html_content = f"""
+    <html>
+      <body>
+        <h2>Welcome, {customer_name}!</h2>
+        <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
+        <p><b>Your Access Token:</b> <code>{token}</code></p>
+        <p>👉 <a href="{magic_link}">Click here to get your first recommendation</a></p>
+        <p>Or paste the token on our website.</p>
+        <p>This token is valid for 30 days (your subscription period).</p>
+        <p>Thank you for subscribing!</p>
+        <p>– Gig Driver Intelligence Team</p>
+      </body>
+    </html>
+    """
+
+    if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
+        print("⚠️ Mailgun credentials missing – email not sent.")
+        return False
+
+    resp = requests.post(
+        f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+        auth=("api", MAILGUN_API_KEY),
+        data={
+            "from": FROM_EMAIL,
+            "to": [to_email],
+            "subject": "Your Gig Driver Intelligence access token",
+            "html": html_content
+        }
+    )
+    return resp.status_code == 200
 
 # ----------------------------------------------------------------------
 # HTML landing page (updated to display tip_of_the_day)
@@ -166,7 +190,6 @@ HTML_PAGE = """
     </div>
     <button onclick="fetchRecommendation()">Refresh</button>
     <script>
-        let lastTipHtml = '';
         async function fetchRecommendation() {
             const token = '{{ token }}';
             const response = await fetch('/api/recommend', {
@@ -174,7 +197,6 @@ HTML_PAGE = """
             });
             const data = await response.json();
             document.getElementById('rec-content').textContent = JSON.stringify(data, null, 2);
-            // Display tip_of_the_day if present
             if (data.tip_of_the_day) {
                 const tipHtml = `
                     <div class="tip-box">
@@ -182,7 +204,6 @@ HTML_PAGE = """
                         ${escapeHtml(data.tip_of_the_day.description)}
                     </div>
                 `;
-                // Insert above the recommendation if not already there
                 const recDiv = document.getElementById('rec');
                 if (!document.getElementById('tip-container')) {
                     const tipDiv = document.createElement('div');
@@ -215,7 +236,7 @@ HTML_PAGE = """
 @app.route('/')
 def index():
     token = request.args.get('token')
-    if token and token in ACTIVE_TOKENS:
+    if token and is_token_valid(token):
         return render_template_string(HTML_PAGE, token=token, stripe_link=STRIPE_PAYMENT_LINK)
     else:
         return render_template_string(HTML_PAGE, token=None, stripe_link=STRIPE_PAYMENT_LINK)
@@ -257,7 +278,7 @@ def stripe_webhook():
 
     payload = request.get_data(as_text=True)
     sig_header = request.headers.get('Stripe-Signature')
-    
+
     try:
         event = stripe.Webhook.construct_event(
             payload, sig_header, STRIPE_WEBHOOK_SECRET
@@ -271,23 +292,23 @@ def stripe_webhook():
         session = event['data']['object']
         customer_email = session['customer_details']['email']
         customer_name = session['customer_details'].get('name', 'Driver')
-        
+
         sub_id = session.get('subscription')
         if sub_id:
             token_base = f"{sub_id}:{customer_email}"
         else:
             token_base = f"{session['id']}:{customer_email}"
         token = hashlib.sha256(token_base.encode()).hexdigest()[:16]
-        
+
         add_token(token)
-        
+
         if MAILGUN_API_KEY and MAILGUN_DOMAIN:
             success = send_welcome_email(customer_email, customer_name, token)
             if not success:
                 print(f"⚠️ Failed to send email to {customer_email}")
         else:
             print(f"ℹ️ No Mailgun config – token {token} for {customer_email} saved but not emailed.")
-    
+
     return jsonify({"status": "success"}), 200
 
 # ----------------------------------------------------------------------
