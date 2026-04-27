@@ -60,7 +60,7 @@ scheduler.start()
 # ----------------------------------------------------------------------
 # In-memory token store (for MVP – use a database later)
 # ----------------------------------------------------------------------
-ACTIVE_TOKENS = set()
+ACTIVE_TOKENS = set(123test321)
 STRIPE_PAYMENT_LINK = os.environ.get("STRIPE_PAYMENT_LINK", "https://buy.stripe.com/your-link-here")
 ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "changeme")
 
