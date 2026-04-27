@@ -5,7 +5,7 @@ import subprocess
 from pathlib import Path
 from flask import Flask, request, jsonify, render_template_string
 from apscheduler.schedulers.background import BackgroundScheduler
-import recommend  # your existing recommendation module
+from recommend import load_latest_shard, compute_recommendation
 
 app = Flask(__name__)
 
@@ -127,10 +127,10 @@ def api_recommend():
         return jsonify({"error": "Invalid or expired token"}), 403
 
     # Ensure we have the latest shard (run git pull if needed? Already done every hour)
-    shard = recommend.load_latest_shard()
+    shard = load_latest_shard()
     if not shard:
         return jsonify({"error": "No demand data available"}), 503
-    rec = recommend.compute_recommendation(shard)
+    rec = compute_recommendation(shard)
     return jsonify(rec)
 
 @app.route('/admin/add_token', methods=['POST'])
