@@ -77,6 +77,7 @@ HTML_PAGE = """
         body { font-family: Arial, sans-serif; margin: 2em; max-width: 800px; margin: auto; }
         button { background: #635bff; color: white; border: none; padding: 12px 24px; font-size: 18px; border-radius: 8px; cursor: pointer; }
         #rec { background: #f5f5f5; padding: 1em; border-radius: 8px; margin-top: 2em; white-space: pre-wrap; }
+        .error { color: red; }
     </style>
 </head>
 <body>
@@ -86,23 +87,27 @@ HTML_PAGE = """
 
     {% if not token %}
     <p><a href="{{ stripe_link }}" target="_blank"><button>Subscribe Now</button></a></p>
-    <p>After subscribing, you'll receive a token. Paste it below:</p>
+    <p>After subscribing, enter your token:</p>
     <form method="GET">
         <input type="text" name="token" placeholder="Your token" style="padding: 8px; width: 300px;">
         <button type="submit">Get Recommendation</button>
     </form>
     {% else %}
-    <div id="rec"><strong>Your recommendation:</strong><br><pre id="rec-content">Loading...</pre></div>
-    <button onclick="fetchRec()">Refresh</button>
+    <div id="rec">
+        <strong>Your recommendation:</strong>
+        <pre id="rec-content">Loading...</pre>
+    </div>
+    <button onclick="fetchRecommendation()">Refresh</button>
     <script>
-        async function fetchRec() {
+        async function fetchRecommendation() {
+            const token = '{{ token }}';
             const response = await fetch('/api/recommend', {
-                headers: { 'Authorization': 'Bearer {{ token }}' }
+                headers: { 'Authorization': 'Bearer ' + token }
             });
             const data = await response.json();
             document.getElementById('rec-content').textContent = JSON.stringify(data, null, 2);
         }
-        fetchRec();
+        fetchRecommendation();
     </script>
     {% endif %}
 </body>
