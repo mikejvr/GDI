@@ -1,5 +1,6 @@
 """
 web_app.py – Paywalled recommendation server with Stripe webhook + email delivery.
+Displays a daily driver tip alongside the recommendation.
 """
 
 import os
@@ -17,7 +18,7 @@ import requests
 # ----------------------------------------------------------------------
 # Import your recommendation engine
 # ----------------------------------------------------------------------
-import recommend  # must be in the same directory or accessible
+import recommend
 
 # ----------------------------------------------------------------------
 # Flask app initialization
@@ -30,7 +31,6 @@ app = Flask(__name__)
 STRIPE_PAYMENT_LINK = os.environ.get("STRIPE_PAYMENT_LINK", "https://buy.stripe.com/your-link")
 ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "changeme")
 
-# Stripe webhook & email
 STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY")
 STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET")
 MAILGUN_API_KEY = os.environ.get("MAILGUN_API_KEY")
@@ -95,7 +95,7 @@ def git_pull():
     except subprocess.CalledProcessError as e:
         print(f"❌ Git pull failed: {e}")
     finally:
-        if remote_url:
+        if 'remote_url' in locals() and remote_url:
             subprocess.run(["git", "remote", "set-url", "origin", remote_url], cwd=repo_path, check=False)
 
 # ----------------------------------------------------------------------
@@ -113,8 +113,8 @@ def send_welcome_email(to_email, customer_name, token):
     app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
     magic_link = f"{app_url}/?token={token}"
     
-    html_content = f"
-    '''<html>
+    html_content = f"""
+    <html>
       <body>
         <h2>Welcome, {customer_name}!</h2>
         <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
@@ -125,8 +125,8 @@ def send_welcome_email(to_email, customer_name, token):
         <p>Thank you for subscribing!</p>
         <p>– Gig Driver Intelligence Team</p>
       </body>
-    </html>'''
-    "
+    </html>
+    """
     
     if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
         print("⚠️ Mailgun credentials missing – email not sent.")
@@ -145,7 +145,7 @@ def send_welcome_email(to_email, customer_name, token):
     return resp.status_code == 200
 
 # ----------------------------------------------------------------------
-# HTML landing page
+# HTML landing page (updated to display tip_of_the_day)
 # ----------------------------------------------------------------------
 HTML_PAGE = """
 <!DOCTYPE html>
@@ -157,6 +157,7 @@ HTML_PAGE = """
         body { font-family: Arial, sans-serif; margin: 2em; max-width: 800px; margin: auto; }
         button { background: #635bff; color: white; border: none; padding: 12px 24px; font-size: 18px; border-radius: 8px; cursor: pointer; }
         #rec { background: #f5f5f5; padding: 1em; border-radius: 8px; margin-top: 2em; white-space: pre-wrap; }
+        .tip-box { background: #eef; padding: 0.5em 1em; border-radius: 8px; margin-bottom: 1em; border-left: 4px solid #635bff; }
         .error { color: red; }
     </style>
 </head>
@@ -179,6 +180,7 @@ HTML_PAGE = """
     </div>
     <button onclick="fetchRecommendation()">Refresh</button>
     <script>
+        let lastTipHtml = '';
         async function fetchRecommendation() {
             const token = '{{ token }}';
             const response = await fetch('/api/recommend', {
@@ -186,6 +188,33 @@ HTML_PAGE = """
             });
             const data = await response.json();
             document.getElementById('rec-content').textContent = JSON.stringify(data, null, 2);
+            // Display tip_of_the_day if present
+            if (data.tip_of_the_day) {
+                const tipHtml = `
+                    <div class="tip-box">
+                        <strong>💡 ${escapeHtml(data.tip_of_the_day.title)}</strong><br>
+                        ${escapeHtml(data.tip_of_the_day.description)}
+                    </div>
+                `;
+                // Insert above the recommendation if not already there
+                const recDiv = document.getElementById('rec');
+                if (!document.getElementById('tip-container')) {
+                    const tipDiv = document.createElement('div');
+                    tipDiv.id = 'tip-container';
+                    tipDiv.innerHTML = tipHtml;
+                    recDiv.insertBefore(tipDiv, recDiv.firstChild);
+                } else {
+                    document.getElementById('tip-container').innerHTML = tipHtml;
+                }
+            }
+        }
+        function escapeHtml(str) {
+            return str.replace(/[&<>]/g, function(m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                return m;
+            });
         }
         fetchRecommendation();
     </script>
@@ -257,7 +286,6 @@ def stripe_webhook():
         customer_email = session['customer_details']['email']
         customer_name = session['customer_details'].get('name', 'Driver')
         
-        # Generate a unique token from subscription ID or session ID
         sub_id = session.get('subscription')
         if sub_id:
             token_base = f"{sub_id}:{customer_email}"
@@ -267,7 +295,6 @@ def stripe_webhook():
         
         add_token(token)
         
-        # Send email using Mailgun (if configured)
         if MAILGUN_API_KEY and MAILGUN_DOMAIN:
             success = send_welcome_email(customer_email, customer_name, token)
             if not success:
@@ -281,6 +308,5 @@ def stripe_webhook():
 # Startup
 # ----------------------------------------------------------------------
 if __name__ == '__main__':
-    # Pull latest data once at startup
     git_pull()
     app.run(host='0.0.0.0', port=5000, debug=False)
