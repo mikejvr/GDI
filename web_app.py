@@ -47,22 +47,43 @@ TOKEN_FILE = Path("tokens.json")
 def load_tokens():
     if TOKEN_FILE.exists():
         with open(TOKEN_FILE, "r") as f:
-            return set(json.load(f))
+            return json.load(f)
     return set()
 
-def save_tokens(tokens):
+def save_tokens(tokens_dict):
     with open(TOKEN_FILE, "w") as f:
-        json.dump(list(tokens), f)
+        json.dump(tokens_dict, f)
 
-ACTIVE_TOKENS = load_tokens()
+TOKEN_STORE = load_tokens()   # now a dict: token -> expiry (datetime string or Unix timestamp)
 
 def add_token(token):
-    ACTIVE_TOKENS.add(token)
-    save_tokens(ACTIVE_TOKENS)
+    expiry = datetime.utcnow() + timedelta(days=30)
+    TOKEN_STORE[token] = expiry.isoformat()
+    save_tokens(TOKEN_STORE)
 
 def remove_token(token):
-    ACTIVE_TOKENS.discard(token)
-    save_tokens(ACTIVE_TOKENS)
+    if token in TOKEN_STORE:
+        del TOKEN_STORE[token]
+        save_tokens(TOKEN_STORE)
+
+def is_token_valid(token):
+    if token not in TOKEN_STORE:
+        return False
+    expiry_str = TOKEN_STORE[token]
+    expiry = datetime.fromisoformat(expiry_str)
+    if datetime.utcnow() > expiry:
+        # Remove expired token
+        remove_token(token)
+        return False
+    return True
+
+def clean_expired_tokens():
+    now = datetime.utcnow()
+    expired = [t for t, exp_str in TOKEN_STORE.items() if datetime.fromisoformat(exp_str) < now]
+    for t in expired:
+        del TOKEN_STORE[t]
+    if expired:
+        save_tokens(TOKEN_STORE)
 
 # ----------------------------------------------------------------------
 # Git pull helper (keeps data/ updated from GitHub)
@@ -113,8 +134,8 @@ def send_welcome_email(to_email, customer_name, token):
     app_url = os.environ.get("RENDER_EXTERNAL_URL", "https://your-app.onrender.com")
     magic_link = f"{app_url}/?token={token}"
     
-    html_content = f"""
-    <html>
+    html_content = f"
+    '''<html>
       <body>
         <h2>Welcome, {customer_name}!</h2>
         <p>Your subscription to <strong>Gig Driver Intelligence</strong> is now active.</p>
@@ -125,8 +146,8 @@ def send_welcome_email(to_email, customer_name, token):
         <p>Thank you for subscribing!</p>
         <p>– Gig Driver Intelligence Team</p>
       </body>
-    </html>
-    """
+    </html>'''
+    "
     
     if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
         print("⚠️ Mailgun credentials missing – email not sent.")
@@ -240,7 +261,7 @@ def api_recommend():
     if not auth or not auth.startswith('Bearer '):
         return jsonify({"error": "Missing token"}), 401
     token = auth.split(' ')[1]
-    if token not in ACTIVE_TOKENS:
+    if not is_token_valid(token):
         return jsonify({"error": "Invalid or expired token"}), 403
 
     shard = recommend.load_latest_shard()
