@@ -2,10 +2,12 @@
 """
 recommend.py – Heuristic recommendation engine for gig drivers.
 Reads the most recent gig_demand_signal shard from data/,
-applies 30+ heuristics, and outputs a JSON recommendation.
+applies heuristics, and outputs a JSON recommendation.
+Includes random driver tip from rules.json.
 """
 
 import json
+import random
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, Any, List, Optional
@@ -13,9 +15,28 @@ from typing import Dict, Any, List, Optional
 from src.utils.io_sorted import read_shards_sorted
 
 # ----------------------------------------------------------------------
+# Load driver tips from rules.json
+# ----------------------------------------------------------------------
+RULES_FILE = Path("src/substrate/rules.json")
+
+def load_random_rule() -> Optional[Dict[str, str]]:
+    """Load a random rule from rules.json."""
+    if not RULES_FILE.exists():
+        return None
+    try:
+        with open(RULES_FILE, "r") as f:
+            data = json.load(f)
+        rules = data.get("rules", [])
+        if not rules:
+            return None
+        return random.choice(rules)
+    except Exception as e:
+        print(f"⚠️ Failed to load rules: {e}")
+        return None
+
+# ----------------------------------------------------------------------
 # Heuristic rules (pure functions, no external deps)
 # ----------------------------------------------------------------------
-
 def score_surge(surge_cells: List[Dict]) -> Dict[str, Any]:
     """Evaluate surge cells: max multiplier, count of high-surge zones."""
     if not surge_cells:
@@ -23,7 +44,6 @@ def score_surge(surge_cells: List[Dict]) -> Dict[str, Any]:
     multipliers = [cell.get("surge_multiplier", 1.0) for cell in surge_cells if cell.get("surge_multiplier")]
     max_mult = max(multipliers) if multipliers else 1.0
     high_count = sum(1 for m in multipliers if m >= 2.0)
-    # Score 0-10
     score = min(10, int(max_mult * 2) + high_count)
     return {"max_multiplier": max_mult, "high_surge_count": high_count, "score": score}
 
@@ -32,7 +52,8 @@ def score_events(events: List[Dict]) -> Dict[str, Any]:
     if not events:
         return {"count": 0, "score": 0, "has_big_event": False}
     category_scores = {
-        "concert": 3, "sports": 3, "festival": 4, "conference": 2, "nightlife": 2
+        "concert": 3, "sports": 3, "festival": 4, "conference": 2, "nightlife": 2,
+        "music": 2, "arts & theatre": 2, "miscellaneous": 1
     }
     score = 0
     big_event = False
@@ -47,7 +68,6 @@ def score_events(events: List[Dict]) -> Dict[str, Any]:
 
 def score_weather(weather: Optional[Dict]) -> Dict[str, Any]:
     """Weather impact: rain, snow, extreme temps, wind."""
-    # Handle None or empty dict
     if not weather or not isinstance(weather, dict):
         return {"score": 0, "condition": "unknown"}
     
@@ -57,7 +77,7 @@ def score_weather(weather: Optional[Dict]) -> Dict[str, Any]:
     precip_prob = weather.get("precip_probability") or 0
     wind = weather.get("wind_speed_kph") or 0
 
-    score = 5  # neutral baseline
+    score = 5
     if "rain" in condition or precip_prob > 70:
         score += 3
     elif "snow" in condition:
@@ -73,7 +93,7 @@ def score_weather(weather: Optional[Dict]) -> Dict[str, Any]:
     return {"score": min(max(score, 0), 20), "condition": condition}
 
 def time_of_day_factor() -> Dict[str, Any]:
-    """Return score based on current hour (UTC, but MVP can be local)."""
+    """Return score based on current hour (UTC)."""
     now_hour = datetime.now(timezone.utc).hour
     if 7 <= now_hour < 10:
         factor = 8
@@ -110,7 +130,6 @@ def generate_recommendation_text(apps: List[str], expected_hourly: float, reason
 # ----------------------------------------------------------------------
 # Main engine
 # ----------------------------------------------------------------------
-
 def load_latest_shard(data_dir: Path = Path("data")) -> Optional[Dict]:
     """Return the most recent shard (by last modified time) from data/."""
     if not data_dir.exists():
@@ -118,7 +137,6 @@ def load_latest_shard(data_dir: Path = Path("data")) -> Optional[Dict]:
     shard_paths = list(read_shards_sorted(data_dir))
     if not shard_paths:
         return None
-    # Get the most recently modified file
     latest_path = max(shard_paths, key=lambda p: p.stat().st_mtime)
     with latest_path.open("r") as f:
         shard = json.load(f)
@@ -129,15 +147,14 @@ def compute_recommendation(shard: Dict) -> Dict[str, Any]:
     data = shard.get("data", {})
     surge_cells = data.get("surge_cells", [])
     events = data.get("events", [])
-    weather = data.get("weather")  # could be None or dict
+    weather = data.get("weather")
 
     surge = score_surge(surge_cells)
     event_score = score_events(events)
     weather_res = score_weather(weather)
     time_res = time_of_day_factor()
 
-    total_score = (event_score["score"] * 1.5) + weather_res["score"] + time_res["score"]
-    '''(surge["score"] * 2) + '''
+    total_score = (event_score["score"] * 2) + weather_res["score"] + time_res["score"]
     expected_hourly = 12.0 + (total_score / 60) * 30
     expected_hourly = round(expected_hourly, 2)
 
@@ -163,7 +180,7 @@ def compute_recommendation(shard: Dict) -> Dict[str, Any]:
 
     confidence = min(0.95, 0.5 + (total_score / 100))
 
-    return {
+    rec = {
         "recommendation_text": generate_recommendation_text(apps, expected_hourly, reasoning),
         "expected_hourly_min": expected_hourly,
         "confidence": round(confidence, 2),
@@ -174,12 +191,26 @@ def compute_recommendation(shard: Dict) -> Dict[str, Any]:
         ],
         "reasoning": reasoning,
         "raw_scores": {
-            # "surge": surge["score"],
             "events": event_score["score"],
             "weather": weather_res["score"],
             "time": time_res["score"]
         }
     }
+
+    # Add random driver tip if available
+    rule = load_random_rule()
+    if rule:
+        rec["tip_of_the_day"] = {
+            "title": rule["title"],
+            "description": rule["description"]
+        }
+    else:
+        rec["tip_of_the_day"] = {
+            "title": "Golden Rule",
+            "description": "Always know your cost per mile before you drive."
+        }
+
+    return rec
 
 def main():
     shard = load_latest_shard()
