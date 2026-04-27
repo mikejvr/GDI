@@ -9,6 +9,16 @@ import json
 from flask import Flask, request, jsonify, render_template_string
 from recommend import load_latest_shard, compute_recommendation
 
+import subprocess
+from apscheduler.schedulers.background import BackgroundScheduler
+
+def git_pull():
+    subprocess.run(["git", "pull"], cwd=Path(__file__).parent)
+
+scheduler = BackgroundScheduler()
+scheduler.add_job(git_pull, 'interval', hours=1)
+scheduler.start()
+
 app = Flask(__name__)
 
 # Stripe keys – set these as environment variables
