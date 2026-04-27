@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "title": "Track Every Mile and Expense",
+      "description": "Use a mileage tracking app or logbook to record all business-related miles and expenses. This maximizes tax deductions and ensures accurate income reporting."
+    },
+    {
+      "id": 2,
+      "title": "Set Aside Money for Taxes",
+      "description": "Save 20-30% of each payout in a separate account for quarterly estimated taxes. Gig income is not pre-taxed, so you'll owe self-employment and income tax."
+    },
+    {
+      "id": 3,
+      "title": "Know Your True Costs Per Mile",
+      "description": "Factor in fuel, maintenance, depreciation, insurance, and cleaning. Calculate your cost per mile to avoid working for less than break-even."
+    },
+    {
+      "id": 4,
+      "title": "Maintain Proper Insurance Coverage",
+      "description": "Standard personal auto insurance often excludes commercial use. Get a rideshare/delivery endorsement or commercial policy to avoid claim denials."
+    },
+    {
+      "id": 5,
+      "title": "Never Chase Surge or Boost Zones Blindly",
+      "description": "Driving 15 minutes to a surge area may waste time and gas. Factor in deadhead miles and opportunity cost before repositioning."
+    },
+    {
+      "id": 6,
+      "title": "Keep Your Acceptance Rate Reasonable",
+      "description": "You are an independent contractor. Reject unprofitable trips (e.g., long pickups or low pay per mile). Focus on trips that meet your minimum acceptable rate."
+    },
+    {
+      "id": 7,
+      "title": "Stay Hydrated, Rested, and Safe",
+      "description": "Fatigue leads to accidents and poor decisions. Take breaks, stretch, and never drive impaired. Your health and safety come first."
+    },
+    {
+      "id": 8,
+      "title": "Know How to Handle Difficult Passengers or Deliveries",
+      "description": "Follow app policies for unruly riders, bad addresses, or undeliverable orders. Document issues with photos or messages to protect your ratings and payments."
+    },
+    {
+      "id": 9,
+      "title": "Maximize Peak Hours, but Not Every Peak Hour",
+      "description": "Work during high-demand periods (e.g., Friday nights, rainy weather) but avoid oversaturating weekends if per-hour earnings drop. Balance with off-peak errands."
+    },
+    {
+      "id": 10,
+      "title": "Have a Multi-App Strategy",
+      "description": "Run two or three apps (Uber, Lyft, DoorDash, etc.) and pick the best trip from any. But never use both simultaneously while driving – pause one while on a trip."
+    }
+  ]
+}
