@@ -146,8 +146,7 @@ def send_welcome_email(to_email, customer_name, token):
         <p>Thank you for subscribing!</p>
         <p>– Gig Driver Intelligence Team</p>
       </body>
-    </html>"""
-    "
+    </html>"
     
     if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
         print("⚠️ Mailgun credentials missing – email not sent.")
