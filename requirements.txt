@@ -1,7 +1,5 @@
 flask
 stripe
-hashlib
-subprocess
 requests
 apscheduler
 gunicorn
