@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-04-29T19:20:51.952629+00:00",
+  "data": {
+    "captured_at": "2026-04-29T19:20:51Z",
+    "events": [
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dp0OBgw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Bloodywood: System Of A Brown Tour 2026",
+        "notes": null,
+        "start_time": "2026-04-29T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7rexp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "David Sedaris",
+        "notes": null,
+        "start_time": "2026-04-30T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Paramount Theatre-Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-04-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dRL6GSW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "La Santa Cecilia",
+        "notes": null,
+        "start_time": "2026-04-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OpZ7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "David Lee Roth",
+        "notes": null,
+        "start_time": "2026-04-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbznShjQ4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Bethel Music 2026 Tour",
+        "notes": null,
+        "start_time": "2026-04-30T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-33e",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Curren$y (18+ Event)",
+        "notes": null,
+        "start_time": "2026-05-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Empire Control Room"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7rex9",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "David Sedaris",
+        "notes": null,
+        "start_time": "2026-05-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Paramount Theatre-Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dwSJcVi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ari Lennox - The Vacancy Tour",
+        "notes": null,
+        "start_time": "2026-05-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OMoa",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Softball vs. Arkansas Razorbacks Softball",
+        "notes": null,
+        "start_time": "2026-05-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Red & Charline McCombs Field"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7qVjP",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Maren Morris w/ slimdan",
+        "notes": null,
+        "start_time": "2026-05-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dKj4T8K",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Buffalo Traffic Jam w/ Slater Nalley",
+        "notes": null,
+        "start_time": "2026-05-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-bPI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "CONCRETE BOYS: IT'S US - VOL. 2 TOUR",
+        "notes": null,
+        "start_time": "2026-05-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aQt0XwP",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "CONCRETE BOYS: IT'S US - VOL. 2 TOUR",
+        "notes": null,
+        "start_time": "2026-05-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6R2fx5s",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Street Peach & Ultravioletcoraline",
+        "notes": null,
+        "start_time": "2026-05-01T03:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OMo8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Softball vs. Arkansas Razorbacks Softball",
+        "notes": null,
+        "start_time": "2026-05-01T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Red & Charline McCombs Field"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbz5uT_mi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "I LOVE YOU BUT... I CHOSE THE MAINE",
+        "notes": null,
+        "start_time": "2026-05-01T22:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O44M",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Baseball vs. Mississippi State Bulldogs Baseball",
+        "notes": null,
+        "start_time": "2026-05-01T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O6ua",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dr Seuss's The Cat in the Hat",
+        "notes": null,
+        "start_time": "2026-05-02T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbSxPf023",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Paper Kites - If You Go There, I Hope You Find It (US/Canada Tour)",
+        "notes": null,
+        "start_time": "2026-05-02T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAu4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_klA6Dyv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lil' Ed & the Blues Imperials w/ Brad Stivers",
+        "notes": null,
+        "start_time": "2026-05-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-3jY",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Avery Lynch",
+        "notes": null,
+        "start_time": "2026-05-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7jJu7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Joe Russo's Almost Dead",
+        "notes": null,
+        "start_time": "2026-05-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_e9FL6Vk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jared Benjamin",
+        "notes": null,
+        "start_time": "2026-05-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Empire Control Room"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_F6JQ4aW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Barb & Chancla Fight Club",
+        "notes": null,
+        "start_time": "2026-05-02T03:10:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7a-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-02T16:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OMoo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Softball vs. Arkansas Razorbacks Softball",
+        "notes": null,
+        "start_time": "2026-05-02T17:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Red & Charline McCombs Field"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O44z",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Baseball vs. Mississippi State Bulldogs Baseball",
+        "notes": null,
+        "start_time": "2026-05-02T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7aO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-02T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAu9",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-02T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OtAF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Campfire - Zach North",
+        "notes": null,
+        "start_time": "2026-05-02T21:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbwX-C0JV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "GoldFord: Space of the Heart Tour",
+        "notes": null,
+        "start_time": "2026-05-02T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_eE4GQPG",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "iHeartCountry Festival Presented by Capital One",
+        "notes": null,
+        "start_time": "2026-05-03T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dUH5jo1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Tripping Daisy - I Am An Elastic Firecracker + Other Hits",
+        "notes": null,
+        "start_time": "2026-05-03T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbUnPKQ_1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cory Wong - Lost in the Wonder",
+        "notes": null,
+        "start_time": "2026-05-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O6u8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rhiannon Giddens",
+        "notes": null,
+        "start_time": "2026-05-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAup",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_klkVidF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rhett Miller",
+        "notes": null,
+        "start_time": "2026-05-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbUJi7EIS",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
+        "notes": null,
+        "start_time": "2026-05-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-O40",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "SKYROCKET!",
+        "notes": null,
+        "start_time": "2026-05-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7qzvo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Hayley Williams",
+        "notes": null,
+        "start_time": "2026-05-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dMoPqNL",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Animal Arcade & Blue Tongue",
+        "notes": null,
+        "start_time": "2026-05-03T03:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_erVpIjW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Gospel Stars",
+        "notes": null,
+        "start_time": "2026-05-03T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O44y",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Baseball vs. Mississippi State Bulldogs Baseball",
+        "notes": null,
+        "start_time": "2026-05-03T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7ax",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-03T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAub",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-03T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "G5dIZ_AltbJQE",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "PRESEASON Dallas Wings vs Las Vegas Aces",
+        "notes": null,
+        "start_time": "2026-05-03T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7roZU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. St. Louis City SC",
+        "notes": null,
+        "start_time": "2026-05-03T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1777490451.952014,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "showers and thunderstorms likely",
+      "feels_like_c": 28.3,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 58,
+      "temp_c": 28.3,
+      "timestamp": "2026-04-29T19:20:51Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1777490451",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1777490451_0949e93ef3e67144",
+  "shard_type": "gig_demand_signal"
+}
