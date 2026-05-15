@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-05-15T21:57:05.181422+00:00",
+  "data": {
+    "captured_at": "2026-05-15T21:57:05Z",
+    "events": [
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbgK6Q6K-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sons of Legion - Soul to S\u00d8L Tour ",
+        "notes": null,
+        "start_time": "2026-05-15T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O4pe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Baseball vs. Missouri Tigers Baseball",
+        "notes": null,
+        "start_time": "2026-05-15T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A703fv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NCAA Softball Austin Regional - All Sessions",
+        "notes": null,
+        "start_time": "2026-05-15T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Red & Charline McCombs Field"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbg99FyfB",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Chet Faker",
+        "notes": null,
+        "start_time": "2026-05-16T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMZXwAV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination - Champagne Opening",
+        "notes": null,
+        "start_time": "2026-05-16T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_d8FQfn0",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "George Strait",
+        "notes": null,
+        "start_time": "2026-05-16T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuE",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-16T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_eLaxahq",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Smells Like Nirvana",
+        "notes": null,
+        "start_time": "2026-05-16T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_AlLE7hX",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lil Xan",
+        "notes": null,
+        "start_time": "2026-05-16T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Empire Control Room"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A74oJ6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wiz (Touring)",
+        "notes": null,
+        "start_time": "2026-05-16T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7aE",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-16T16:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70OoU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NCAA Softball Austin Regional - Day 2",
+        "notes": null,
+        "start_time": "2026-05-16T17:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Red & Charline McCombs Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A74oP_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wiz (Touring)",
+        "notes": null,
+        "start_time": "2026-05-16T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7O4pd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Baseball vs. Missouri Tigers Baseball",
+        "notes": null,
+        "start_time": "2026-05-16T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7aJ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-16T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAut",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-16T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7Q-CnES",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Josiah and the Bonnevilles - The Redline North America Tour",
+        "notes": null,
+        "start_time": "2026-05-16T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7hqxSv_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "PeelingFlesh",
+        "notes": null,
+        "start_time": "2026-05-16T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMeaw1b",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination By George Ayres",
+        "notes": null,
+        "start_time": "2026-05-17T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_d8FhfnV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "George Strait",
+        "notes": null,
+        "start_time": "2026-05-17T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-17T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7roZy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. Sporting Kansas City",
+        "notes": null,
+        "start_time": "2026-05-17T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbU6VR5oT",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Arts Fishing Club",
+        "notes": null,
+        "start_time": "2026-05-17T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7btGp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mac DeMarco",
+        "notes": null,
+        "start_time": "2026-05-17T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A74oJb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wiz (Touring)",
+        "notes": null,
+        "start_time": "2026-05-17T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_erVYIrs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Shields of Faith",
+        "notes": null,
+        "start_time": "2026-05-17T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A74o0z",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wiz (Touring)",
+        "notes": null,
+        "start_time": "2026-05-17T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMZT3aU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination By George Ayres",
+        "notes": null,
+        "start_time": "2026-05-17T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7aI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlotte's Web",
+        "notes": null,
+        "start_time": "2026-05-17T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuY",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-17T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A74oPb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wiz (Touring)",
+        "notes": null,
+        "start_time": "2026-05-17T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dRnMubo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Southern Hospitality Tour: The Black Crowes and Whiskey Myers",
+        "notes": null,
+        "start_time": "2026-05-17T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAus",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-18T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7btx6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mac DeMarco",
+        "notes": null,
+        "start_time": "2026-05-18T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dRehl5j",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gary Clark Jr. w/ The Peterson Brothers",
+        "notes": null,
+        "start_time": "2026-05-19T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dpjCnd8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Elmiene - Sounds for Someone Tour",
+        "notes": null,
+        "start_time": "2026-05-20T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-21T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7helman",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ollie Joseph & Matt Corman",
+        "notes": null,
+        "start_time": "2026-05-21T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Empire Control Room"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMZTekP",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination By George Ayres",
+        "notes": null,
+        "start_time": "2026-05-22T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OFe6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "ATXplained Live",
+        "notes": null,
+        "start_time": "2026-05-22T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuS",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-22T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FTZC5Gc",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Wyatt Weaver Band",
+        "notes": null,
+        "start_time": "2026-05-22T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dhd-Dyi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Yot Club - Simpleton Tour",
+        "notes": null,
+        "start_time": "2026-05-22T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7nIG_2N",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Shinedown: Dance, Kid, Dance Act II",
+        "notes": null,
+        "start_time": "2026-05-23T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMZTekU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination By George Ayres",
+        "notes": null,
+        "start_time": "2026-05-23T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAuV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-23T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_A6MfiKf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rob Baird \"Smoke on the Breeze\" Album Release w/ Danny Golden",
+        "notes": null,
+        "start_time": "2026-05-23T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-g--",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Fire & Heart -Tribute to Pat Benatar,Heart&Journey",
+        "notes": null,
+        "start_time": "2026-05-23T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbykU7MWd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Master Boot Record",
+        "notes": null,
+        "start_time": "2026-05-23T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Empire Control Room"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aSIIQMd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Stan Society Presents Justin Bieber Night",
+        "notes": null,
+        "start_time": "2026-05-23T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1778882225.180842,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "mostly cloudy",
+      "feels_like_c": 33.3,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 1,
+      "temp_c": 33.3,
+      "timestamp": "2026-05-15T21:57:04Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1778882225",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1778882225_f66b1e4e62f62281",
+  "shard_type": "gig_demand_signal"
+}
