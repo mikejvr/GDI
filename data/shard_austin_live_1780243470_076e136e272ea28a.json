@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-05-31T16:04:30.336603+00:00",
+  "data": {
+    "captured_at": "2026-05-31T16:04:30Z",
+    "events": [
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_ergFbLy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Levites",
+        "notes": null,
+        "start_time": "2026-05-31T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-pG-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rock and Roll Playhouse Music of Phish + more for kids",
+        "notes": null,
+        "start_time": "2026-05-31T17:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70VQb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NCAA Baseball Austin Regional - Game 5",
+        "notes": null,
+        "start_time": "2026-05-31T17:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "1Ae0Z_FGkMZT3al",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Destination By George Ayres",
+        "notes": null,
+        "start_time": "2026-05-31T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Trinity Street Playhouse"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QACA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-05-31T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7S88UAM",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Yeri Mua - Baddie Tour",
+        "notes": null,
+        "start_time": "2026-05-31T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70goZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NCAA Baseball Austin Regional - Game 6",
+        "notes": null,
+        "start_time": "2026-05-31T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QACk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dear Evan Hansen (Touring)",
+        "notes": null,
+        "start_time": "2026-06-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70VQf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NCAA Baseball Austin Regional - Game 7 (If Necessary)",
+        "notes": null,
+        "start_time": "2026-06-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "UFCU Disch-Falk Field"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1VvHPkL",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday w/ Soul Man Sam & Lindsay Beaver ",
+        "notes": null,
+        "start_time": "2026-06-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QZuv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Belle and Sebastian",
+        "notes": null,
+        "start_time": "2026-06-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QZud",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Belle and Sebastian",
+        "notes": null,
+        "start_time": "2026-06-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6rHh_tC",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Joshua Slone: Thinking Too Much Tour",
+        "notes": null,
+        "start_time": "2026-06-03T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FMBmLv5",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Purple Reign (Golden Legacy Tribute)",
+        "notes": null,
+        "start_time": "2026-06-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70bCp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Tigers Jaw w/ Pool Kids",
+        "notes": null,
+        "start_time": "2026-06-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "The Mohawk-Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xkaS",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "John Hollier",
+        "notes": null,
+        "start_time": "2026-06-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-yPw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Barton Hills Choir",
+        "notes": null,
+        "start_time": "2026-06-05T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-zGs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NPRs Wait Wait... Don't Tell Me!",
+        "notes": null,
+        "start_time": "2026-06-05T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_k2ALi1j",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Altons: Show You Love Tour w/ Introverted Funk & DJ Raquiqui",
+        "notes": null,
+        "start_time": "2026-06-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-VZ8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Flawed Mangoes: The Killswitch Memories Tour",
+        "notes": null,
+        "start_time": "2026-06-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6Lx-jJZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Flawed Mangoes: The Killswitch Memories Tour",
+        "notes": null,
+        "start_time": "2026-06-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6K9FSKe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
+        "notes": null,
+        "start_time": "2026-06-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_AO6NunP",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "underscores: Galleria - North American Chapter",
+        "notes": null,
+        "start_time": "2026-06-05T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-8vI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jessica Baio",
+        "notes": null,
+        "start_time": "2026-06-06T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aeR0D2e",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cumbiatron - The Cumbia Rave",
+        "notes": null,
+        "start_time": "2026-06-06T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7JPhFaZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Wale & Smino - Everything Is A Lot... The Tour",
+        "notes": null,
+        "start_time": "2026-06-07T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "G5dIZ_ku7kFhI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Monster Jam",
+        "notes": null,
+        "start_time": "2026-06-07T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_eNNUQ0C",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Kelsy Karter & The Heroines: The Pleasure Tour w/ Grace McKagen",
+        "notes": null,
+        "start_time": "2026-06-07T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xKOo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Night Ranger",
+        "notes": null,
+        "start_time": "2026-06-07T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FDfLW23",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cherri & Sage X Price",
+        "notes": null,
+        "start_time": "2026-06-07T03:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TPJ4FD",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Moriah Sisters",
+        "notes": null,
+        "start_time": "2026-06-07T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "G5dIZ_ku7kzhs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Monster Jam",
+        "notes": null,
+        "start_time": "2026-06-07T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbgUcd9Tb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "WOLFMOTHER - 20th Anniversary Tour",
+        "notes": null,
+        "start_time": "2026-06-08T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A708rp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Justin Whitehead",
+        "notes": null,
+        "start_time": "2026-06-08T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7E9EhXI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ray Bull: Please Stop Laughing Tour w/ Babehoven",
+        "notes": null,
+        "start_time": "2026-06-08T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dBeMkil",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "ALL THE FEELINGS TOUR with METRIC, BROKEN SOCIAL SCENE, AND STARS",
+        "notes": null,
+        "start_time": "2026-06-08T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ewy4yrA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Madison Beer: the locket tour",
+        "notes": null,
+        "start_time": "2026-06-09T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6mt3ivs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Vacations: The Holy Grail Tour w/ Thelma Plum",
+        "notes": null,
+        "start_time": "2026-06-09T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_69P6KZo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Vacations: The Holy Grail Tour w/ Thelma Plum",
+        "notes": null,
+        "start_time": "2026-06-10T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FJgPiJ0",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mike Sherm",
+        "notes": null,
+        "start_time": "2026-06-11T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ddk2HWK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Girl Named Tom",
+        "notes": null,
+        "start_time": "2026-06-11T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_eN2Ga-n",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charlie Puth: Whatever's Clever! World Tour",
+        "notes": null,
+        "start_time": "2026-06-12T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6zihbTv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sadie Jean: Early Twenties Tourture w/ Gabriela Bee",
+        "notes": null,
+        "start_time": "2026-06-12T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6rPd9Py",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Big K.R.I.T.",
+        "notes": null,
+        "start_time": "2026-06-13T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7revV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lord of the Rings: Fellowship of the Ring in Concert",
+        "notes": null,
+        "start_time": "2026-06-13T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xkqs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Deadeye",
+        "notes": null,
+        "start_time": "2026-06-13T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FXXa1y3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lebra Jolie w/ Big Jade, Lynn, SunnithaRapper & DJ Eye Q",
+        "notes": null,
+        "start_time": "2026-06-13T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbsEC1V8G",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Rush Tribute Project",
+        "notes": null,
+        "start_time": "2026-06-14T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Paramount Theatre for the Performing Arts"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q64x",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rush Tribute Project",
+        "notes": null,
+        "start_time": "2026-06-14T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Paramount Theatre-Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7revw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lord of the Rings: Fellowship of the Ring in Concert",
+        "notes": null,
+        "start_time": "2026-06-14T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1780243470.3360124,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "patchy fog then mostly sunny",
+      "feels_like_c": 33.9,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 2,
+      "temp_c": 33.9,
+      "timestamp": "2026-05-31T16:04:29Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1780243470",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1780243470_076e136e272ea28a",
+  "shard_type": "gig_demand_signal"
+}
