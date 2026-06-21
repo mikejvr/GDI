@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-06-21T18:17:38.345101+00:00",
+  "data": {
+    "captured_at": "2026-06-21T18:17:38Z",
+    "events": [
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TPHgG1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Bret Graham",
+        "notes": null,
+        "start_time": "2026-06-21T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A706ZO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jamie Lissow",
+        "notes": null,
+        "start_time": "2026-06-21T21:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbg_Zfufg",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "5 Seconds of Summer: EVERYONE'S A STAR! World Tour",
+        "notes": null,
+        "start_time": "2026-06-22T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbSnDr9kt",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Louis Tomlinson - How Did We Get Here? World Tour",
+        "notes": null,
+        "start_time": "2026-06-23T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1VdbgpQ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday w/ Soul Man Sam & Lindsay Beaver ",
+        "notes": null,
+        "start_time": "2026-06-23T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aQnerzI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Haiden Henderson",
+        "notes": null,
+        "start_time": "2026-06-23T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7R3gWN3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Augustana & Phantom Planet",
+        "notes": null,
+        "start_time": "2026-06-24T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OPfA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "CLAYPOOL GOLD featuring Primus, Les Claypool's Frog Brigade & The Claypool Lennon Delirium",
+        "notes": null,
+        "start_time": "2026-06-24T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_F5KZhyt",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Tiny Desk Contest On The Road 2026",
+        "notes": null,
+        "start_time": "2026-06-24T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7u8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-06-25T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbsmjB32h",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ariana Grande - The Eternal Sunshine Tour",
+        "notes": null,
+        "start_time": "2026-06-25T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-06-26T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dRe0lGd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gary Clark Jr. w/ Brad Stivers",
+        "notes": null,
+        "start_time": "2026-06-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xbCv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Royal & the Serpent",
+        "notes": null,
+        "start_time": "2026-06-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xdqO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "You Should Know",
+        "notes": null,
+        "start_time": "2026-06-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aQnqTZG",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Royal & the Serpent",
+        "notes": null,
+        "start_time": "2026-06-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A706Z_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Justin Smith",
+        "notes": null,
+        "start_time": "2026-06-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7ro0x",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sesame Street Live! Elmos Got The Moves",
+        "notes": null,
+        "start_time": "2026-06-26T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_eJrP9rZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "jigitz",
+        "notes": null,
+        "start_time": "2026-06-26T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FBw0yXv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Earlybirds Club",
+        "notes": null,
+        "start_time": "2026-06-26T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7u3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-06-27T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xdfg",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rhymin' N Stealin'",
+        "notes": null,
+        "start_time": "2026-06-27T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbsmrFe8d",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ariana Grande - The Eternal Sunshine Tour",
+        "notes": null,
+        "start_time": "2026-06-27T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aY36q40",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Fred Wesley & His New JBs w/ dj bphresh",
+        "notes": null,
+        "start_time": "2026-06-27T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FBq699u",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Taylorville - A Tribute to Taylor Swift",
+        "notes": null,
+        "start_time": "2026-06-27T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_kmN3yxJ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "JINJER Duel North America 2026",
+        "notes": null,
+        "start_time": "2026-06-27T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-06-27T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A708r9",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Zarna Garg",
+        "notes": null,
+        "start_time": "2026-06-27T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aYK8c9m",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "C.J. Chenier & the Red Hot Louisiana Band w/ Gypsy Mitchell",
+        "notes": null,
+        "start_time": "2026-06-28T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7xaaV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Vacation Manor w/ Nolen Durham",
+        "notes": null,
+        "start_time": "2026-06-28T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbsmLZx8Y",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ariana Grande - The Eternal Sunshine Tour",
+        "notes": null,
+        "start_time": "2026-06-28T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A708rb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Zarna Garg",
+        "notes": null,
+        "start_time": "2026-06-28T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TJkgur",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Shields of Faith",
+        "notes": null,
+        "start_time": "2026-06-28T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-06-28T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_5RKExuv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Girl Guitar ",
+        "notes": null,
+        "start_time": "2026-06-28T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FGhYvEv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Bob Dylan",
+        "notes": null,
+        "start_time": "2026-06-30T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1V71Ajs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday w/ Soul Man Sam & Brad Stivers",
+        "notes": null,
+        "start_time": "2026-06-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_u5-Q_e8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "School of Rock",
+        "notes": null,
+        "start_time": "2026-07-01T21:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7u4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-07-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-NCe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Zoso",
+        "notes": null,
+        "start_time": "2026-07-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7up",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-07-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dReP5G1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gary Clark Jr. w/ Jake Andrews",
+        "notes": null,
+        "start_time": "2026-07-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcXdMGYZvFodi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-03T14:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcXdMGYZvFodc",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-03T17:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcXdMGYZvFodm",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-03T20:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcXdMGYZvFodR",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-03T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7u9",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-07-04T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aY4Zc_e",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jimmie Vaughan & the Tilt-A-Whirl Band w/ Bobby Patterson",
+        "notes": null,
+        "start_time": "2026-07-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcBLZI8ZvlKvb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-04T13:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "LvZ18QbbVcBLZI8ZvlKv_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jurassic Quest | Palmer Event Center | Austin, TX 2026",
+        "notes": null,
+        "start_time": "2026-07-04T14:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Palmer Events Center"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1782065858.3444712,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "slight chance showers and thunderstorms",
+      "feels_like_c": 33.9,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 19,
+      "temp_c": 33.9,
+      "timestamp": "2026-06-21T18:17:37Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1782065858",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1782065858_8969a6bf077074b7",
+  "shard_type": "gig_demand_signal"
+}
