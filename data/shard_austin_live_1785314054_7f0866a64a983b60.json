@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-07-29T08:34:14.553782+00:00",
+  "data": {
+    "captured_at": "2026-07-29T08:34:14Z",
+    "events": [
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_ARuxN0Z",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Expedited Entry and Moody Amp Social Club Happy Hour - The Fray",
+        "notes": null,
+        "start_time": "2026-07-29T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dQzrhoS",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Fray - Summer of Light Tour with Dashboard Confessional",
+        "notes": null,
+        "start_time": "2026-07-29T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-07-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4d",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-07-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1VZH7Hi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Rio Da Yung OG: The World is M.I.N.E. Tour",
+        "notes": null,
+        "start_time": "2026-07-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_kUQsy7O",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "IVE WORLD TOUR <SHOW WHAT I AM> IN AUSTIN",
+        "notes": null,
+        "start_time": "2026-07-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbzpM_abq",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Forrest Frank: The Jesus Generation Tour",
+        "notes": null,
+        "start_time": "2026-07-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FLIogqX",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Water Boyz Presents: Chris Travis Performing Live! The Prefix Tour",
+        "notes": null,
+        "start_time": "2026-07-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uM",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-07-31T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA47",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-07-31T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6E5IrDN",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Riff Wood",
+        "notes": null,
+        "start_time": "2026-07-31T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbMNcXG55",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Chance Pe\u00f1a",
+        "notes": null,
+        "start_time": "2026-08-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PkbA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uz",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-08-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4A",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-01T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ue-p6Wh",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "DeadEye: 16th Annual Jerryfest w/ Spud Boy Allstars (NIGHT ONE)",
+        "notes": null,
+        "start_time": "2026-08-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70pOY",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lara Beitz",
+        "notes": null,
+        "start_time": "2026-08-01T02:45:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_uenbtAD",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "TWO DAY PASS: DeadEye: 16th Annual Jerryfest",
+        "notes": null,
+        "start_time": "2026-07-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7uy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-08-01T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA46",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-01T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7CZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-08-01T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77O",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkbk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4k",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70pOw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lara Beitz",
+        "notes": null,
+        "start_time": "2026-08-02T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ue-pEWx",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "DeadEye: 16th Annual Jerryfest w/ Fennario Flats (NIGHT TWO)",
+        "notes": null,
+        "start_time": "2026-08-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-to_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dogstar",
+        "notes": null,
+        "start_time": "2026-08-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TJX4pC",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Levites",
+        "notes": null,
+        "start_time": "2026-08-02T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x7eo",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026 Cinderella",
+        "notes": null,
+        "start_time": "2026-08-02T16:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q7Cv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Annie (Touring)",
+        "notes": null,
+        "start_time": "2026-08-02T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkb6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-02T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4F",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-02T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-02T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PNZ8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026 - Disney's Newsies The Musical",
+        "notes": null,
+        "start_time": "2026-08-02T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70pOs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lara Beitz",
+        "notes": null,
+        "start_time": "2026-08-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_uEEdKH5",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Chief Cleopatra w/ EddieAngel",
+        "notes": null,
+        "start_time": "2026-08-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_29S4d0U",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday: Soul Man Sam w/ Brad Stivers",
+        "notes": null,
+        "start_time": "2026-08-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-sqF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ella Mai w/ AMA",
+        "notes": null,
+        "start_time": "2026-08-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FDF1iGi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Melanie Martinez - HADES: THE SACRIFICE",
+        "notes": null,
+        "start_time": "2026-08-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x6Og",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Howard Jones w/ Wang Chung",
+        "notes": null,
+        "start_time": "2026-08-04T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77x",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-05T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PkbF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-05T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_GONazJc",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Meet Me @ The Altar: The Worried Sick Summer Tour w/ Leisure Hour",
+        "notes": null,
+        "start_time": "2026-08-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77N",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-05T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkba",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-05T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_AmNiGhV",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
+        "notes": null,
+        "start_time": "2026-08-05T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbgV2qDUI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "O.A.R. Three Decades Tour",
+        "notes": null,
+        "start_time": "2026-08-05T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7qEeA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "O.A.R. Three Decades Tour",
+        "notes": null,
+        "start_time": "2026-08-05T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x770",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-06T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1785314054.5530748,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "partly cloudy",
+      "feels_like_c": 25.0,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 0,
+      "temp_c": 25.0,
+      "timestamp": "2026-07-29T08:34:14Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1785314054",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1785314054_7f0866a64a983b60",
+  "shard_type": "gig_demand_signal"
+}
