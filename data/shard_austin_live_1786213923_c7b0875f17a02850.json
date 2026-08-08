@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-08-08T18:32:03.455753+00:00",
+  "data": {
+    "captured_at": "2026-08-08T18:32:03Z",
+    "events": [
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4K",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-08T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77J",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-08T20:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkb3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-08T20:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77E",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-09T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PkbK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-09T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA43",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-09T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E33",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dan Docimo",
+        "notes": null,
+        "start_time": "2026-08-09T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_25RGQ-8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dogma Society, Nautics & LeTrainiump",
+        "notes": null,
+        "start_time": "2026-08-09T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70Aq-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Bikini Trill",
+        "notes": null,
+        "start_time": "2026-08-09T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70d-t",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Sword w/ Red Fang",
+        "notes": null,
+        "start_time": "2026-08-09T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "RADIO/EAST"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E3o",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dan Docimo",
+        "notes": null,
+        "start_time": "2026-08-09T02:45:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TEag9G",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Shields of Faith",
+        "notes": null,
+        "start_time": "2026-08-09T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x7e4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026 Cinderella",
+        "notes": null,
+        "start_time": "2026-08-09T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4f",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-09T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x77I",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin",
+        "notes": null,
+        "start_time": "2026-08-10T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_GwwMG0X",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "DON TOLIVER: NITROUS - OCTANE WORLD TOUR LEG 2",
+        "notes": null,
+        "start_time": "2026-08-10T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkbf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Summer Stock Austin 2026: Newsies",
+        "notes": null,
+        "start_time": "2026-08-10T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "McCullough Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA44",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-10T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E38",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dan Docimo",
+        "notes": null,
+        "start_time": "2026-08-10T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7--GZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. Puebla FC",
+        "notes": null,
+        "start_time": "2026-08-10T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_29S4N0W",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday: Soul Man Sam w/ Lindsay Beaver & Gio",
+        "notes": null,
+        "start_time": "2026-08-11T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7mO3y2a",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Poppy - Constantly Nowhere Tour",
+        "notes": null,
+        "start_time": "2026-08-11T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_28cOBTO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Albert Castiglia w/ Brad Stivers",
+        "notes": null,
+        "start_time": "2026-08-12T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_df5LUKL",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NE-YO & AKON: Nights Like This Tour 2026",
+        "notes": null,
+        "start_time": "2026-08-12T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aCSjyMI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Corbyn Besson and Soulidified: The Pop'n Out Tour",
+        "notes": null,
+        "start_time": "2026-08-13T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4p",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-13T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_dYDUq_v",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ella Langley: The Dandelion Tour",
+        "notes": null,
+        "start_time": "2026-08-14T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_1Np463z",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Magic Men Australia",
+        "notes": null,
+        "start_time": "2026-08-14T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA49",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-14T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7--Gv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. Club America",
+        "notes": null,
+        "start_time": "2026-08-14T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_CDkNlQY",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Hanover Single Release w/ Caroline Hale & Connor's Demos",
+        "notes": null,
+        "start_time": "2026-08-14T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_AKPe5kf",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Franz Ferdinand: Greater Glasgow Cultural Exchange",
+        "notes": null,
+        "start_time": "2026-08-15T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Waller Creek Amphitheater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FL3v-s-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Little Stranger",
+        "notes": null,
+        "start_time": "2026-08-15T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_d9lBTmJ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lionel Richie and Earth, Wind & Fire - Sing a Song All Night Long",
+        "notes": null,
+        "start_time": "2026-08-15T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4b",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-15T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_16Do7j7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jed Harrelson",
+        "notes": null,
+        "start_time": "2026-08-15T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7P6O_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "A Live One - Phish Tribute",
+        "notes": null,
+        "start_time": "2026-08-15T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_GlllVsK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Valice & clement hall",
+        "notes": null,
+        "start_time": "2026-08-15T03:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4O",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-15T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_G3qeI8v",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Noname",
+        "notes": null,
+        "start_time": "2026-08-16T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-16T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7rovd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. FC Dallas",
+        "notes": null,
+        "start_time": "2026-08-16T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PP8_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "DJ Mel",
+        "notes": null,
+        "start_time": "2026-08-16T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_5lsKmEU",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Current Comfort",
+        "notes": null,
+        "start_time": "2026-08-16T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TEKP_F",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Moriah Sisters",
+        "notes": null,
+        "start_time": "2026-08-16T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-16T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QA4x",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sally and Tom",
+        "notes": null,
+        "start_time": "2026-08-17T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_29SpdP7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday: Soul Man Sam w/ Brad Stivers & Madison",
+        "notes": null,
+        "start_time": "2026-08-18T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_a9PjmQ-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Willow Avalon: Pink Pocket Pistol Tour",
+        "notes": null,
+        "start_time": "2026-08-18T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7wW8wA2",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Santana & The Doobie Brothers - Oneness Tour 2026",
+        "notes": null,
+        "start_time": "2026-08-19T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1786213923.4551368,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "sunny",
+      "feels_like_c": 37.2,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 8,
+      "temp_c": 37.2,
+      "timestamp": "2026-08-08T18:32:02Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1786213923",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1786213923_c7b0875f17a02850",
+  "shard_type": "gig_demand_signal"
+}
