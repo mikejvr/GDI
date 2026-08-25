@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-08-25T04:34:36.055339+00:00",
+  "data": {
+    "captured_at": "2026-08-25T04:34:36Z",
+    "events": [
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_7MQvhpI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "PawPaw Rod: Picture Day Tour w/ Jean Carter",
+        "notes": null,
+        "start_time": "2026-08-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbZ",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-27T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_uDbWCos",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cole Phillips",
+        "notes": null,
+        "start_time": "2026-08-28T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-28T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E3A",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charles McBee",
+        "notes": null,
+        "start_time": "2026-08-28T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_5CB2GXs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Nic Vans",
+        "notes": null,
+        "start_time": "2026-08-28T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_AKV1Hz8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Social Distortion",
+        "notes": null,
+        "start_time": "2026-08-29T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Amphitheater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-29T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E3F",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charles McBee",
+        "notes": null,
+        "start_time": "2026-08-29T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6KUL17Y",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cheekface w/ special guest Catbite",
+        "notes": null,
+        "start_time": "2026-08-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-67w",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Buddy Guy 90",
+        "notes": null,
+        "start_time": "2026-08-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Pkq4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mock Lobster",
+        "notes": null,
+        "start_time": "2026-08-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbUULRjz2",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Olivia Dean: The Art Of Loving Live",
+        "notes": null,
+        "start_time": "2026-08-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E3k",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charles McBee",
+        "notes": null,
+        "start_time": "2026-08-29T02:45:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAb7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-29T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7084-",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Save Ferris",
+        "notes": null,
+        "start_time": "2026-08-30T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Come and Take It Live"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7P0xk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Molecular Steve",
+        "notes": null,
+        "start_time": "2026-08-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E3a",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charles McBee",
+        "notes": null,
+        "start_time": "2026-08-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FnU5Gpv",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Silverada & The Weary Boys w/ The Wyatt Weaver Band",
+        "notes": null,
+        "start_time": "2026-08-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70x8J",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Congress the band",
+        "notes": null,
+        "start_time": "2026-08-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Brushy Street Commons"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZbUM5Q4EW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Olivia Dean: The Art Of Loving Live",
+        "notes": null,
+        "start_time": "2026-08-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ahcEErW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Bop To The Top",
+        "notes": null,
+        "start_time": "2026-08-30T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "rZ7HnEZ1Afa_O7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Good Terms, Stateside, Dossey, paleview",
+        "notes": null,
+        "start_time": "2026-08-30T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Hole In The Wall"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70E36",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Charles McBee",
+        "notes": null,
+        "start_time": "2026-08-30T02:45:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TEPghp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: Shields of Faith",
+        "notes": null,
+        "start_time": "2026-08-30T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-08-30T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_8iAug8s",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Screwed Up Sunday with E.S.G. From The S.U.C. & More",
+        "notes": null,
+        "start_time": "2026-08-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1rmujz3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Black Veil Brides: Vindicatour US 2026",
+        "notes": null,
+        "start_time": "2026-08-31T22:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_29SpNPa",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday: Soul Man Sam w/ Lindsay Beaver & SHVKIEL",
+        "notes": null,
+        "start_time": "2026-09-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FTeOljE",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Lefty Gunplay w/ RNB.FOEMOB",
+        "notes": null,
+        "start_time": "2026-09-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aM7M9M2",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Channel Tres - The Enigma Tour",
+        "notes": null,
+        "start_time": "2026-09-03T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-09-03T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7P4Gg",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Womens Volleyball vs. USC Trojans Womens Volleyball",
+        "notes": null,
+        "start_time": "2026-09-03T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Gregory Gym"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70YvI",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Nonpoint",
+        "notes": null,
+        "start_time": "2026-09-03T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Come and Take It Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ALpRTEi",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Koe Wetzel: The Night Champion World Tour",
+        "notes": null,
+        "start_time": "2026-09-03T23:45:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAb6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-09-04T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_28inBM3",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "LE$ w/ Quiet Money Dot, J Soulja, Derdy & DJ Kimblee",
+        "notes": null,
+        "start_time": "2026-09-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PvON",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Fragile Rock",
+        "notes": null,
+        "start_time": "2026-09-04T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_Cnxq9Vl",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Nate Miller",
+        "notes": null,
+        "start_time": "2026-09-05T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_25iYyTp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Sound & Vision",
+        "notes": null,
+        "start_time": "2026-09-05T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAbF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-09-05T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7PUFk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Alex Lambert",
+        "notes": null,
+        "start_time": "2026-09-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_6DqbXhS",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Johnny Blue Skies & the Dark Clouds - Mutiny for the Masses 2026 Tour",
+        "notes": null,
+        "start_time": "2026-09-05T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7Q_C6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Football vs. Texas State San Marcos Bobcats Football",
+        "notes": null,
+        "start_time": "2026-09-05T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Darrell K Royal - Memorial Stadium"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAb8",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-09-05T19:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_aMtvCRm",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Kasbo \"Labyrinth Tour\" 3-hour DJ Set",
+        "notes": null,
+        "start_time": "2026-09-05T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7QAba",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Come from Away (Touring)",
+        "notes": null,
+        "start_time": "2026-09-06T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "ZACH Theatre"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7rov6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. San Jose Earthquakes",
+        "notes": null,
+        "start_time": "2026-09-06T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_GC-sI0G",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Paige Plaisance w/ Monica Valli",
+        "notes": null,
+        "start_time": "2026-09-06T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1787632476.054729,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "mostly clear",
+      "feels_like_c": 25.6,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 0,
+      "temp_c": 25.6,
+      "timestamp": "2026-08-25T04:34:35Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1787632476",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1787632476_d4a16af7a887a5a3",
+  "shard_type": "gig_demand_signal"
+}
