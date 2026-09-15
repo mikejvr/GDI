@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-09-15T19:30:06.823889+00:00",
+  "data": {
+    "captured_at": "2026-09-15T19:30:06Z",
+    "events": [],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1789500606.8237555,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "sunny",
+      "feels_like_c": 38.9,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 0,
+      "temp_c": 38.9,
+      "timestamp": "2026-09-15T19:29:43Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1789500606",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1789500606_af599b1c1b7f3506",
+  "shard_type": "gig_demand_signal"
+}
