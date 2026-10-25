@@ -1,0 +1,739 @@
+{
+  "created_at_utc": "2026-10-25T21:23:24.356098+00:00",
+  "data": {
+    "captured_at": "2026-10-25T21:23:24Z",
+    "events": [
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6TtKAcF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Moriah Sisters",
+        "notes": null,
+        "start_time": "2026-10-25T15:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ueYCasj",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "25th Anniversary of musicforthemorning after - Pete Yorn solo acoustic",
+        "notes": null,
+        "start_time": "2026-10-25T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAe8oE",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Liz Miele",
+        "notes": null,
+        "start_time": "2026-10-25T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1pCxMRX",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mom Jeans",
+        "notes": null,
+        "start_time": "2026-10-25T23:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZZeb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Nick Mullen",
+        "notes": null,
+        "start_time": "2026-10-26T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZPep",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Brincos Dieras",
+        "notes": null,
+        "start_time": "2026-10-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_1TXJP-0",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
+        "notes": null,
+        "start_time": "2026-10-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZ7Z_",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Cardinal Bloom",
+        "notes": null,
+        "start_time": "2026-10-26T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "29th Street Ballroom"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_a9NPrZe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "EMEI - Night at the Opera Tour",
+        "notes": null,
+        "start_time": "2026-10-26T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_fEAb6V6",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Blue Monday w/ Blue Mist Band",
+        "notes": null,
+        "start_time": "2026-10-27T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_7hw3z6Q",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Daniel Sloss: BITTER  (Brand New Tour!)",
+        "notes": null,
+        "start_time": "2026-10-27T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-Zbs",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Daniel Sloss",
+        "notes": null,
+        "start_time": "2026-10-27T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70-0x",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Hovvdy w/ Emma Ogier",
+        "notes": null,
+        "start_time": "2026-10-27T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "The Mohawk-Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_3ItNC-L",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dave Chappelle Karmageddon",
+        "notes": null,
+        "start_time": "2026-10-27T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAvsGb",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "A. R. Rahman",
+        "notes": null,
+        "start_time": "2026-10-28T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_3Ii5CH1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Dave Chappelle Karmageddon",
+        "notes": null,
+        "start_time": "2026-10-28T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_u51vw5T",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "almost monday - THANK GOD IT'S ALMOST MONDAY",
+        "notes": null,
+        "start_time": "2026-10-28T22:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70f4v",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Womens Volleyball vs. Georgia Bulldogs Volleyball",
+        "notes": null,
+        "start_time": "2026-10-28T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Gregory Gym"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAe7aO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "A Live Conversation with David Arquette - Scream",
+        "notes": null,
+        "start_time": "2026-10-29T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_FXgRQAF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Teddy Swims: The UGLY Tour",
+        "notes": null,
+        "start_time": "2026-10-29T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7rov9",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Austin FC vs. Real Salt Lake",
+        "notes": null,
+        "start_time": "2026-10-29T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Q2 Stadium"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_kbJauqF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Chasing Abbey",
+        "notes": null,
+        "start_time": "2026-10-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZp7f",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The Goonies 40th Anniversary Screening + Q&A",
+        "notes": null,
+        "start_time": "2026-10-29T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAeAoF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Womens Basketball vs. Eastern New Mexico Greyhounds Womens Basketball",
+        "notes": null,
+        "start_time": "2026-10-29T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZs-Y",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ali Wong",
+        "notes": null,
+        "start_time": "2026-10-30T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "G5dIZ_8MDC7cG",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ali Wong Live",
+        "notes": null,
+        "start_time": "2026-10-30T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70PPd",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Craig Robinson",
+        "notes": null,
+        "start_time": "2026-10-30T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAvgq4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Freaky Deaky 2026 - Friday 18+",
+        "notes": null,
+        "start_time": "2026-10-30T20:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Travis County Expo Center"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_G1lEt_v",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "The War And Treaty",
+        "notes": null,
+        "start_time": "2026-10-30T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OAQK",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "NoDak Palooza",
+        "notes": null,
+        "start_time": "2026-10-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7J7fy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Goodbye June w/ Cole Barnhill",
+        "notes": null,
+        "start_time": "2026-10-31T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "3TEN ACL Live"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_F5M-NVy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Ramon Ayala: Historia De Un Final",
+        "notes": null,
+        "start_time": "2026-10-31T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_Kh8HmCw",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Club 90s Presents Thrillerween",
+        "notes": null,
+        "start_time": "2026-10-31T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70PPA",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Craig Robinson",
+        "notes": null,
+        "start_time": "2026-10-31T02:15:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAe8oY",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Hocus Pocus Drag Brunch",
+        "notes": null,
+        "start_time": "2026-10-31T19:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "undefined",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAvgqp",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Freaky Deaky 2026 - Saturday 18+",
+        "notes": null,
+        "start_time": "2026-10-31T20:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Travis County Expo Center"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_3xNRMxO",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Mr. Fantasy - Sexy Saturday Nights Tour",
+        "notes": null,
+        "start_time": "2026-10-31T23:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Scoot Inn"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OZ4E",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Football vs. Mississippi State Bulldogs Football",
+        "notes": null,
+        "start_time": "2026-10-31T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Darrell K Royal - Memorial Stadium"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70PPk",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Craig Robinson",
+        "notes": null,
+        "start_time": "2026-11-01T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_2wHfHV4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Kennedy Ryon: The Can We Evolve? Tour",
+        "notes": null,
+        "start_time": "2026-11-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70tpF",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Madeon",
+        "notes": null,
+        "start_time": "2026-11-01T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70PPe",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Craig Robinson",
+        "notes": null,
+        "start_time": "2026-11-01T02:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "miscellaneous",
+        "end_time": null,
+        "event_id": "G5dIZ_6Ttqgs1",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Gospel Brunch: The Levites",
+        "notes": null,
+        "start_time": "2026-11-01T16:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Stubb's Indoors"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7x_v4",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Womens Volleyball vs. Texas A&M Aggies Womens Volleyball",
+        "notes": null,
+        "start_time": "2026-11-01T18:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Gregory Gym"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A70PP7",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Craig Robinson",
+        "notes": null,
+        "start_time": "2026-11-02T01:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Cap City Comedy Club"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_CJELDFy",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "City of the Sun",
+        "notes": null,
+        "start_time": "2026-11-02T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Antone's Nightclub"
+        }
+      },
+      {
+        "category": "film",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7OJ-z",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Jim Henson's Labyrinth: In Concert",
+        "notes": null,
+        "start_time": "2026-11-02T02:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Austin City Limits Live at The Moody Theater"
+        }
+      },
+      {
+        "category": "sports",
+        "end_time": null,
+        "event_id": "Z7r9jZ1AAZUA0",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Texas Longhorns Mens Basketball vs. Chicago State Cougars Mens Basketball",
+        "notes": null,
+        "start_time": "2026-11-02T00:00:00Z",
+        "venue": {
+          "location": null,
+          "name": "Moody Center ATX"
+        }
+      },
+      {
+        "category": "music",
+        "end_time": null,
+        "event_id": "G5dIZ_ChrJlsW",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "Knox",
+        "notes": null,
+        "start_time": "2026-11-04T00:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Emo's Austin"
+        }
+      },
+      {
+        "category": "arts & theatre",
+        "end_time": null,
+        "event_id": "Z7r9jZ1A7-07e",
+        "expected_attendance": 0,
+        "is_sold_out": false,
+        "name": "A Beautiful Noise (Touring)",
+        "notes": null,
+        "start_time": "2026-11-04T01:30:00Z",
+        "venue": {
+          "location": null,
+          "name": "Bass Concert Hall"
+        }
+      }
+    ],
+    "kind": "business_dna.gig_demand_signal",
+    "market": "austin_tx",
+    "platform": "ticketmaster_nws",
+    "source_meta": {
+      "events_api": "ticketmaster",
+      "fetched_at": 1792963404.3553927,
+      "source": "live_fetcher",
+      "weather_api": "nws"
+    },
+    "surge_cells": [],
+    "weather": {
+      "alerts": [],
+      "condition_code": "mostly cloudy",
+      "feels_like_c": 28.9,
+      "precip_intensity_mm_hr": 0,
+      "precip_probability": 0,
+      "temp_c": 28.9,
+      "timestamp": "2026-10-25T21:23:23Z",
+      "visibility_km": null,
+      "wind_gust_kph": null,
+      "wind_speed_kph": 0
+    }
+  },
+  "lineage": {
+    "asset_id": "austin_live_1792963404",
+    "extractor_id": "nexus.gig_demand_signals.v1",
+    "notes": "Gig demand signals from scheduled poller/scraper.",
+    "source_id": "live_fetcher"
+  },
+  "producer": "nexus.gig_demand_signals.v1",
+  "shard_id": "shard_austin_live_1792963404_3702c16b801dfebd",
+  "shard_type": "gig_demand_signal"
+}
